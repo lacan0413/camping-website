@@ -1,0 +1,9 @@
+// RWD size
+$mobile-media: 576px;
+
+// 0-576
+@mixin mobile {
+    @media all and (max-width: $mobile-media) {
+        @content;
+    }
+}
