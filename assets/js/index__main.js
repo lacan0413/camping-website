@@ -1,5 +1,3 @@
-assetsPublicPath: '/';
-
 (function () {
     var maxLength = 0;
     var timeCounter = setInterval(function () {
