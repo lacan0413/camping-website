@@ -232,23 +232,23 @@ table {
   transition: 2000ms;
 }
 
-.main__card-group .main__card:nth-child(1) {
-  background-image: url("https://raw.githubusercontent.com/luka1901/sideProject1__camping-website/main/assets/img/index__main/index__main1.jpg");
-  z-index: 0;
-}
-
 .main__card-group .main__card:nth-child(2) {
-  background-image: url("https://raw.githubusercontent.com/luka1901/sideProject1__camping-website/main/assets/img/index__main/index__main2.jpg");
+  background-image: url("../img/index__main/index__main2.jpg");
   z-index: 0;
 }
 
 .main__card-group .main__card:nth-child(3) {
-  background-image: url("https://raw.githubusercontent.com/luka1901/sideProject1__camping-website/main/assets/img/index__main/index__main3.jpg");
+  background-image: url("../img/index__main/index__main3.jpg");
   z-index: 0;
 }
 
 .main__card-group .main__card:nth-child(4) {
-  background-image: url("https://raw.githubusercontent.com/luka1901/sideProject1__camping-website/main/assets/img/index__main/index__main4.jpg");
+  background-image: url("../img/index__main/index__main4.jpg");
+  z-index: 0;
+}
+
+.main__card-group .main__card:nth-child(5) {
+  background-image: url("../img/index__main/index__main5.jpg");
   z-index: 0;
 }
 

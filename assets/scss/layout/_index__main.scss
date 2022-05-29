@@ -20,9 +20,9 @@
             background-size: cover;
             transition: 2000ms;
 
-            @for $i from 1 through 4 {
+            @for $i from 2 through 5 {
                 &:nth-child(#{$i}) {
-                    background-image: url('https://raw.githubusercontent.com/luka1901/sideProject1__camping-website/main/assets/img/index__main/index__main' + $i +'.jpg');
+                    background-image: url('../img/index__main/index__main' + $i +'.jpg');
                     z-index: 0;
                 }
             }
