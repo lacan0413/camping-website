@@ -232,6 +232,11 @@ table {
   transition: 2000ms;
 }
 
+.main__card-group .main__card:nth-child(1) {
+  background-image: url("../img/index__main/index__main1.jpg");
+  z-index: 0;
+}
+
 .main__card-group .main__card:nth-child(2) {
   background-image: url("../img/index__main/index__main2.jpg");
   z-index: 0;
@@ -261,10 +266,6 @@ table {
 
 .main__card-group .main__card[data-index='3'] {
   left: 109%;
-}
-
-.main__card-group .main__card[data-index='4'] {
-  left: 127%;
 }
 
 .main__card-group .main__card[data-index='0'] {

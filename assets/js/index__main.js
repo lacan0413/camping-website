@@ -1,10 +1,10 @@
 (function () {
+    
     var maxLength = 0;
+    
     var timeCounter = setInterval(function () {
         getElementIndex();
     }, 4760);
-
-
 
 
 
@@ -21,15 +21,11 @@
 
 
 
-
-
     function changeCard(arrayArg) {
         arrayArg.forEach((things) => {
             things.dataIndex.dataset.index = things.index;
         });
     };
-
-
 
 
 
@@ -40,7 +36,8 @@
             element.dataset.index = i;
         });
     };
+
+
+
     whenStart('.main__card-group');
-
-
 })();
