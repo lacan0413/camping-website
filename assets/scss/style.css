@@ -247,9 +247,8 @@ table {
   z-index: 0;
 }
 
-.main__card-group .main__card:nth-child(5) {
-  background-image: url("../img/index__main/index__main5.jpg");
-  z-index: 0;
+.main__card-group .main__card[data-index='0'] {
+  left: 55%;
 }
 
 .main__card-group .main__card[data-index='1'] {

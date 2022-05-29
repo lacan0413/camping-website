@@ -5,6 +5,9 @@
     }, 4760);
 
 
+
+
+
     function getElementIndex() {
         let elementArray = [];
         for (let i = 0; i < maxLength; i++) {
@@ -17,11 +20,17 @@
     };
 
 
+
+
+
     function changeCard(arrayArg) {
         arrayArg.forEach((things) => {
             things.dataIndex.dataset.index = things.index;
         });
     };
+
+
+
 
 
     function whenStart(aim) {

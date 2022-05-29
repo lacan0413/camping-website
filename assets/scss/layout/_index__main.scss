@@ -20,14 +20,14 @@
             background-size: cover;
             transition: 2000ms;
 
-            @for $i from 2 through 5 {
+            @for $i from 2 through 4 {
                 &:nth-child(#{$i}) {
                     background-image: url('../img/index__main/index__main' + $i +'.jpg');
                     z-index: 0;
                 }
             }
 
-            @for $i from 1 through 4 {
+            @for $i from 0 through 4 {
                 &[data-index='#{$i}'] {
                     left: (55% + (18% * $i));
                 }
