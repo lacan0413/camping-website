@@ -6,7 +6,7 @@
     z-index: 50;
 
     &__container {
-        background-color: rgba(128, 255, 93, 0.264);
+        background-color: transparent;
         display: flex;
         max-width: 90%;
         height: 20vh;
@@ -14,17 +14,20 @@
         align-items: center;
 
         .nav__logo {
-            background-color: aqua;
+            background-color: transparent;
             padding-left: 5vw;
             flex: 6;
 
-            img {
-                height: 7vh;
+            a {
+                img {
+                    width: 82px;
+                    height: 57px;
+                }
             }
         }
 
         .nav__navlinks {
-            background-color: rgba(49, 255, 255, 0.2);
+            background-color: transparent;
             flex: 7;
             display: flex;
             justify-content: space-around;
