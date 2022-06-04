@@ -22,7 +22,7 @@
 
             @for $i from 1 through 4 {
                 &:nth-child(#{$i}) {
-                    background-image: url('../img/index__main/index__main' + $i +'.jpg');
+                    background-image: url('../img/nav-page__main/nav-page__main' + $i +'.jpg');
                     z-index: 0;
                 }
             }

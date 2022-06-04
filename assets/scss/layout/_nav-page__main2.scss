@@ -2,31 +2,32 @@
     max-width: 50%;
     position: relative;
 
+    .main2__container {
+        
+        .main2__font {
+            z-index: 50;
+            position: absolute;
+            bottom: 157px;
+            left: 10%;
+            background-color: rgba(128, 255, 93, 0.264);
 
-    &__font {
-        z-index: 50;
-        position: absolute;
-        bottom: 157px;
-        left: 10%;
-        background-color: rgba(128, 255, 93, 0.264);
+            h1 {
+                font-family: $openSans;
+                font-size: 80px;
+                font-weight: extra-bold;
+                position: relative;
 
-        h1 {
-            font-family: $openSans;
-            font-size: 80px;
-            font-weight: extra-bold;
-            position: relative;
-
-            &::after {
-                content: '';
-                width: 213px;
-                height: 1px;
-                color: #000;
-                position: absolute;
-                top: 0;
-                left: 0;
+                &::after {
+                    content: '';
+                    width: 213px;
+                    height: 1px;
+                    color: #000;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
             }
+
         }
-
-
     }
 }
