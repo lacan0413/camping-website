@@ -1,0 +1,99 @@
+.footer {
+    max-width: 100vw;
+    height: 475px;
+    background-color: $color__footer;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .footer__logo {
+            position: relative;
+
+            margin-top: 109px;
+
+            .logo__container {
+                &::before {
+                    content: "";
+                    width: 770px;
+                    height: 1px;
+                    background-color: #000;
+
+                    position: absolute;
+                    top: 50%;
+                    right: 122px;
+                }
+
+                &::after {
+                    content: "";
+                    width: 770px;
+                    height: 1px;
+                    background-color: #000;
+
+                    position: absolute;
+                    top: 50%;
+                    left: 122px;
+                }
+
+                img {
+                    width: 82px;
+                    height: 57px;
+                }
+            }
+        }
+
+        .footer__list {
+            margin-top: 47px;
+
+            .list__container {
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    a {
+                        width: 135px;
+                        height: 40px;
+                        text-decoration: none;
+
+                        margin-right: 36px;
+
+                        position: relative;
+
+                        // &:hover 
+
+                        li {
+                            font-size: 22px;
+                            font-family: $notoTC;
+
+                            &::after {
+                                content: "";
+                                width: 135px;
+                                height: 1px;
+                                background-color: #000;
+
+                                position: absolute;
+                                bottom: 1px;
+                                right: 26%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer__copyright {
+            margin-top: 81px;
+
+            p {
+                font-size: 22px;
+                font-family: $notoTC;
+                font-weight: 500;
+            }
+        }
+    }
+}
