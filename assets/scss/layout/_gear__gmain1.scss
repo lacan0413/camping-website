@@ -1,5 +1,5 @@
-.main {
-    max-width: 100vw;
+.gmain1 {
+    width: 100%;
     height: 412px;
     background-color: $color__white;
 
@@ -8,8 +8,7 @@
         align-items: center;
         justify-content: center;
 
-        .main__text {
-
+        .gmain1__text {
             display: flex;
             flex-direction: column;
             align-items: center;

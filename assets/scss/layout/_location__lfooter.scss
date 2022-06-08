@@ -1,5 +1,5 @@
-.footer {
-    max-width: 100vw;
+.lfooter {
+    width: 100%;
     height: 475px;
     background-color: $color__footer;
 
@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: center;
 
-        .footer__logo {
+        .lfooter__logo {
             position: relative;
 
             margin-top: 109px;
@@ -44,7 +44,7 @@
             }
         }
 
-        .footer__list {
+        .lfooter__list {
             margin-top: 47px;
 
             .list__container {
@@ -63,9 +63,7 @@
                         margin-right: 36px;
 
                         position: relative;
-
-                        // &:hover 
-
+                        
                         li {
                             font-size: 22px;
                             font-family: $notoTC;
@@ -86,7 +84,7 @@
             }
         }
 
-        .footer__copyright {
+        .lfooter__copyright {
             margin-top: 81px;
 
             p {

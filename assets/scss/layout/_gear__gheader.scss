@@ -1,5 +1,5 @@
-.header {
-    max-width: 100vw;
+.gheader {
+    width: 100%;
     height: 400px;
     background-color: $color__block1;
 
@@ -84,7 +84,7 @@
         align-items: center;
         justify-content: center;
 
-        .header__text-box {
+        .gheader__text-box {
             width: 417px;
             height: 166px;
             color: $color__aux;
@@ -109,12 +109,12 @@
 
                 &::after {
                     content: '';
-                    width: 213px;
+                    width: 106px;
                     height: 3px;
                     background-color: $color__aux;
                     position: absolute;
                     bottom: -27px;
-                    left: 95px;
+                    left: 52px;
                 }
             }
         }
