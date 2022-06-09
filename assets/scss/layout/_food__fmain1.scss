@@ -14,7 +14,7 @@
             align-items: center;
             justify-content: center;
 
-            margin-top: 125px;
+            margin-top: 111px;
 
             h1 {
                 font-size: 60px;
@@ -29,6 +29,10 @@
                 color: $color__font;
                 font-family: $notoTC;
                 margin-bottom: 27px;
+
+                &:last-child {
+                    margin-right: 353px;
+                }
             }
         }
     }

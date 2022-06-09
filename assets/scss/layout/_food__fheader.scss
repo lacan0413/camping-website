@@ -32,7 +32,7 @@
             }
 
             .nav__navlinks {
-                
+
                 background-color: transparent;
                 flex: 7;
                 display: flex;
@@ -110,12 +110,12 @@
 
                 &::after {
                     content: '';
-                    width: 213px;
+                    width: 106px;
                     height: 3px;
                     background-color: $color__aux;
                     position: absolute;
                     bottom: -27px;
-                    left: 95px;
+                    left: 55px;
                 }
             }
         }
