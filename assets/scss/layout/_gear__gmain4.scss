@@ -12,10 +12,8 @@
         .left {
             width: 434px;
             height: 315px;
-            background-color: rgba(49, 255, 255, 0.2);
 
-            //待修改
-            margin-top: 0;
+            margin-top: 155px;
 
             &__container {
                 display: flex;
@@ -60,10 +58,8 @@
             &__container {
                 margin-left: 80px;
 
-                //待修改
-                margin-top: 146px;
-
-                background-color: rgba(128, 255, 93, 0.264);
+                
+                margin-top: 115px;
 
                 .card-groups {
                     display: flex;
@@ -75,10 +71,72 @@
                         width: 480px;
                         height: 610px;
                         background-color: #fff;
-                        border: 1px solid #000;
 
-                        
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
 
+                        box-shadow: 0px 6px 26px rgb(175, 175, 175);
+
+                        &:first-child {
+                            margin-right: 40px;
+                        }
+
+                        .title {
+
+                            h2 {
+                                font-size: 26px;
+                                font-family: $notoTC;
+                                color: $color__font;
+                                font-weight: normal;
+                                position: relative;
+
+                                &::before,
+                                &::after {
+                                    content: "";
+                                    width: 122px;
+                                    height: 3px;
+                                    background-color: $color__footer;
+                                }
+
+                                &::before {
+                                    position: absolute;
+                                    top: 12px;
+                                    right: 107px;
+                                }
+
+
+                                &::after {
+                                    position: absolute;
+                                    top: 12px;
+                                    left: 107px;
+                                }
+                            }
+                        }
+
+                        .img {
+                            margin-top: 38px;
+                            margin-bottom: 38px;
+
+
+                            img {
+                                width: 381px;
+                                height: 263px;
+                            }
+                        }
+
+                        .text {
+                            width: 381px;
+                            height: 90px;
+
+                            p {
+                                font-size: 22px;
+                                color: $color__font;
+                                font-family: $notoTC;
+                                line-height: 30px;
+                            }
+                        }
                     }
                 }
             }
