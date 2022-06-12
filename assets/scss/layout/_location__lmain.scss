@@ -1,6 +1,6 @@
 .lmain {
     width: 100%;
-    height: 412px;
+    height: 25.75rem;
     background-color: $color__white;
 
     &__container {
@@ -14,21 +14,21 @@
             align-items: center;
             justify-content: center;
 
-            margin-top: 125px;
+            margin-top: 7.8125rem;
 
             h1 {
-                font-size: 60px;
+                font-size: 3.75rem;
                 color: $color__aux;
                 font-family: $openSans;
-                text-shadow: 0 4px 4px rgb(221, 213, 213);
-                margin-bottom: 52px;
+                text-shadow: 0 0.25rem 0.25rem rgb(221, 213, 213);
+                margin-bottom: 3.25rem;
             }
 
             p {
-                font-size: 22px;
+                font-size: 1.375rem;
                 color: $color__font;
                 font-family: $notoTC;
-                margin-bottom: 27px;
+                margin-bottom: 1.6875rem;
             }
         }
     }

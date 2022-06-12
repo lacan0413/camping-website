@@ -1,4 +1,4 @@
-.lfooter {
+.ffooter {
     width: 100%;
     height: 29.6875rem;
     background-color: $color__footer;
@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: center;
 
-        .lfooter__logo {
+        .ffooter__logo {
             position: relative;
 
             margin-top: 6.8125rem;
@@ -44,7 +44,7 @@
             }
         }
 
-        .lfooter__list {
+        .ffooter__list {
             margin-top: 2.9375rem;
 
             .list__container {
@@ -84,7 +84,7 @@
             }
         }
 
-        .lfooter__copyright {
+        .ffooter__copyright {
             margin-top: 5.0625rem;
 
             p {

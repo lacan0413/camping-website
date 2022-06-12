@@ -1,6 +1,6 @@
 .gmain3 {
     width: 100%;
-    height: 1202px;
+    height: 75.125rem;
     background-color: #fff;
     
     &__container {
@@ -9,7 +9,7 @@
         align-items: center;
         justify-content: center;
 
-        padding-bottom: 109px;
+        padding-bottom: 6.8125rem;
 
         .description__container {
             display: flex;
@@ -17,55 +17,55 @@
             align-items: center;
             justify-content: center;
 
-            margin-top: 111px;
+            margin-top: 6.9375rem;
 
             .left-img__container {
-                width: 190px;
-                height: 280px;
-                transform: translateY(-21px);
+                width: 11.875rem;
+                height: 17.5rem;
+                transform: translateY(-1.3125rem);
 
-                margin-right: 32px;
+                margin-right: 2rem;
 
                 img {
-                    width: 190px;
-                    height: 280px;
+                    width: 11.875rem;
+                    height: 17.5rem;
                 }
             }
 
             .text__container {
-                width: 600px;
-                height: 80px;
-                transform: translateY(10px);
+                width: 37.5rem;
+                height: 5rem;
+                transform: translateY(0.625rem);
 
                 p {
-                    font-size: 22px;
+                    font-size: 1.375rem;
                     color: $color__font;
                     font-family: $notoTC;
-                    margin-bottom: 18px;
+                    margin-bottom: 1.125rem;
                 }
             }
 
             .right-img__container {
-                width: 95px;
-                height: 73px;
-                transform: translateY(55px);
+                width: 5.9375rem;
+                height: 4.5625rem;
+                transform: translateY(3.4375rem);
 
-                margin-left: 31px;
+                margin-left: 1.9375rem;
 
                 img {
-                    width: 95px;
-                    height: 73px;
+                    width: 5.9375rem;
+                    height: 4.5625rem;
                 }
             }
         }
     }
 
     &__goods {
-        width: 1530px;
-        height: 660px;
+        width: 95.625rem;
+        height: 41.25rem;
 
         .goods__container {
-            margin-top: 40px;
+            margin-top: 2.5rem;
 
             .cards-group {
                 display: flex;
@@ -79,35 +79,35 @@
                     align-items: center;
                     justify-content: center;
 
-                    margin-left: 50px;
-                    margin-right: 50px;
+                    margin-left: 3.125rem;
+                    margin-right: 3.125rem;
 
                     .title-img {
-                        transform: translateY(-70px);
+                        transform: translateY(-4.375rem);
                     }
 
                     .img {
-                        width: 380px;
-                        height: 263px;
+                        width: 23.75rem;
+                        height: 16.4375rem;
 
-                        transform: translateY(-40px);
+                        transform: translateY(-2.5rem);
 
                         img {
-                            width: 380px;
-                            height: 263px;
+                            width: 23.75rem;
+                            height: 16.4375rem;
                         }
                     }
 
                     .text {
-                        width: 380px;
-                        height: 90px;
+                        width: 23.75rem;
+                        height: 5.625rem;
 
                         p {
-                            font-size: 22px;
+                            font-size: 1.375rem;
                             color: $color__font;
                             font-family: $notoTC;
-                            //原生line-height為20px
-                            line-height: 28px;
+                            //原生line-height為1.25rem
+                            line-height: 1.75rem;
                         }
                     }
                 }

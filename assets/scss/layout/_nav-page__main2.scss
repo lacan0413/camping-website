@@ -3,31 +3,47 @@
     position: relative;
 
     .main2__container {
-        
+
         .main2__font {
             z-index: 50;
             position: absolute;
-            bottom: 157px;
-            left: 10%;
-            background-color: rgba(128, 255, 93, 0.264);
+            bottom: 7.375rem;
+            left: 12.25rem;
 
-            h1 {
-                font-family: $openSans;
-                font-size: 80px;
-                font-weight: extra-bold;
-                position: relative;
+            p {
+                font-size: 1.375rem;
+                color: $color__white;
+                line-height: 1.8725rem;
+                font-weight: 100;
+                font-family: $notoTC;
+                letter-spacing: 0.3rem;
 
-                &::after {
-                    content: '';
-                    width: 213px;
-                    height: 1px;
-                    color: #000;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+                &:nth-child(2) {
+                    margin-top: 8px;
+                }
+
+                &:nth-child(3) {
+                    margin-top: 8px;
                 }
             }
 
+            h1 {
+                font-family: $openSans;
+                color: $color__white;
+                font-size: 5rem;
+                font-weight: extra-bold;
+                position: relative;
+
+                margin-top: 0.875rem;
+                margin-bottom: 2.125rem;
+            }
+
+            .div {
+
+                width: 13.3125rem;
+                height: 0.1875rem;
+                background-color: $color__white;
+            }
         }
     }
 }

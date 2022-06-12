@@ -1,6 +1,6 @@
 .lmain2 {
     width: 100%;
-    height: 832px;
+    height: 52rem;
     background-color: $color__block2;
 
     &__container {
@@ -8,7 +8,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        padding-top: 124px;
+        padding-top: 7.75rem;
 
         .lmain2__left-step01 {
             display: flex;
@@ -16,110 +16,110 @@
             align-items: center;
             justify-content: center;
 
-            width: 505px;
-            height: 320px;
+            width: 31.5625rem;
+            height: 20rem;
 
-            margin-right: 83px;
+            margin-right: 5.1875rem;
 
             .img {
-                margin-right: 25px;
+                margin-right: 1.5625rem;
 
                 img {
-                    width: 190px;
-                    height: 320px;
+                    width: 11.875rem;
+                    height: 20rem;
                 }
             }
 
             .text-h1 {
-                width: 290px;
-                height: 100px;
+                width: 18.125rem;
+                height: 6.25rem;
 
                 h1 {
-                    font-size: 40px;
+                    font-size: 2.5rem;
                     color: $color__aux;
                     font-family: $notoTC;
                 }
             }
 
             .text-p {
-                width: 381px;
-                height: 30px;
+                width: 23.8125rem;
+                height: 1.875rem;
 
                 p {
-                    font-size: 22px;
+                    font-size: 1.375rem;
                     color: $color__font;
                     font-family: $notoTC;
-                    line-height: 40px;
+                    line-height: 2.5rem;
                 }
             }
         }
 
         .lmain2__card1 {
-            width: 481px;
-            height: 610px;
+            width: 30.0625rem;
+            height: 38.125rem;
             background-color: #fff;
-            border-radius: 50px;
+            border-radius: 3.125rem;
 
-            margin-right: 40px;
+            margin-right: 2.5rem;
 
             &__container {
-                margin-top: 86px;
-                margin-left: 50px;
+                margin-top: 5.375rem;
+                margin-left: 3.125rem;
             }
 
             .dotted {
-                margin-left: 50px;
-                margin-top: 10px;
+                margin-left: 3.125rem;
+                margin-top: 0.625rem;
             }
 
             .text-group {
-                font-size: 26px;
+                font-size: 1.625rem;
                 font-family: $notoTC;
-                margin-left: 50px;
-                margin-top: 44px;
+                margin-left: 3.125rem;
+                margin-top: 2.75rem;
 
                 h1 {
-                    font-size: 26px;
+                    font-size: 1.625rem;
                     color: $color__font;
                     font-family: $openSans;
                     font-weight: 700;
                 }
 
                 p {
-                    font-size: 22px;
+                    font-size: 1.375rem;
                     color: $color__font;
                     font-family: $notoTC;
                     font-weight: 400;
 
-                    margin-top: 20px;
+                    margin-top: 1.25rem;
                 }
             }
         }
 
         .lmain2__card2 {
-            width: 481px;
-            height: 610px;
+            width: 30.0625rem;
+            height: 38.125rem;
             background-color: #fff;
-            border-radius: 50px;
+            border-radius: 3.125rem;
 
             &__container {
-                margin-top: 86px;
-                margin-left: 50px;
+                margin-top: 5.375rem;
+                margin-left: 3.125rem;
             }
 
             .dotted {
-                margin-left: 50px;
-                margin-top: 10px;
+                margin-left: 3.125rem;
+                margin-top: 0.625rem;
             }
 
             .text-group {
-                font-size: 26px;
+                font-size: 1.625rem;
                 font-family: $notoTC;
-                margin-left: 50px;
-                margin-top: 44px;
+                margin-left: 3.125rem;
+                margin-top: 2.75rem;
 
                 h1 {
-                    font-size: 26px;
+                    font-size: 1.625rem;
                     color: $color__font;
                     font-family: $openSans;
                     font-weight: 700;
@@ -128,17 +128,17 @@
 
                 .text-p {
 
-                    width: 381px;
-                    height: 60px;
-                    line-height: 30px;
+                    width: 23.8125rem;
+                    height: 3.75rem;
+                    line-height: 1.875rem;
 
                     p {
-                        font-size: 22px;
+                        font-size: 1.375rem;
                         color: $color__font;
                         font-family: $notoTC;
                         font-weight: 400;
-                        line-height: 30px;
-                        margin-top: 20px;
+                        line-height: 1.875rem;
+                        margin-top: 1.25rem;
                     }
                 }
             }

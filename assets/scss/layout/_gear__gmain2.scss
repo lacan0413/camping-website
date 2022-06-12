@@ -1,6 +1,6 @@
 .gmain2 {
     width: 100%;
-    height: 1025px;
+    height: 64.0625rem;
     background-color: $color__block2;
     
     &__container {
@@ -11,9 +11,9 @@
 
         .gmain2__description {
             width: 100vw;
-            height: 249px;
+            height: 15.5625rem;
 
-            margin-bottom: 40px;
+            margin-bottom: 2.5rem;
 
             .description__container {
                 display: flex;
@@ -22,49 +22,49 @@
                 justify-content: center;
 
                 .left-img__container {
-                    width: 190px;
-                    height: 280px;
-                    transform: translateY(-21px);
+                    width: 11.875rem;
+                    height: 17.5rem;
+                    transform: translateY(-1.3125rem);
 
-                    margin-right: 32px;
+                    margin-right: 2rem;
 
                     img {
-                        width: 190px;
-                        height: 280px;
+                        width: 11.875rem;
+                        height: 17.5rem;
                     }
                 }
 
                 .text__container {
-                    width: 600px;
-                    height: 80px;
-                    transform: translateY(10px);
+                    width: 37.5rem;
+                    height: 5rem;
+                    transform: translateY(0.625rem);
 
                     p {
-                        font-size: 22px;
+                        font-size: 1.375rem;
                         color: $color__font;
                         font-family: $notoTC;
-                        margin-bottom: 18px;
+                        margin-bottom: 1.125rem;
                     }
                 }
 
                 .right-img__container {
-                    width: 95px;
-                    height: 73px;
-                    transform: translateY(55px);
+                    width: 5.9375rem;
+                    height: 4.5625rem;
+                    transform: translateY(3.4375rem);
 
-                    margin-left: 31px;
+                    margin-left: 1.9375rem;
 
                     img {
-                        width: 95px;
-                        height: 73px;
+                        width: 5.9375rem;
+                        height: 4.5625rem;
                     }
                 }
             }
         }
 
         .gmain2__goods {
-            width: 1523px;
-            height: 610px;
+            width: 95.1875rem;
+            height: 38.125rem;
 
             .goods__container {
 
@@ -75,35 +75,35 @@
                     justify-content: center;
 
                     .card {
-                        width: 480px;
-                        height: 610px;
+                        width: 30rem;
+                        height: 38.125rem;
                         background-color: #fff;
-                        box-shadow: 1px 4px 10px rgb(167, 165, 165);
+                        box-shadow: 0.0625rem 0.25rem 0.625rem rgb(167, 165, 165);
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         justify-content: center;
 
                         &:nth-child(1) {
-                            margin-right: 40px;
+                            margin-right: 2.5rem;
                         }
 
                         &:nth-child(2) {
-                            margin-right: 40px;
+                            margin-right: 2.5rem;
                         }
 
                         .title {
-                            width: 380px;
-                            height: 35px;
+                            width: 23.75rem;
+                            height: 2.1875rem;
 
                             display: flex;
                             align-items: center;
                             justify-content: center;
 
-                            transform: translateY(-25px);
+                            transform: translateY(-1.5625rem);
 
                             h2 {
-                                font-size: 26px;
+                                font-size: 1.625rem;
                                 color: $color__font;
                                 font-family: $notoTC;
                                 font-weight: 400;
@@ -112,32 +112,32 @@
 
                         .img-line {
                             div {
-                                width: 380px;
-                                height: 3px;
+                                width: 23.75rem;
+                                height: 0.1875rem;
                                 background-color: $color__footer;
                                 opacity: 0.5;
                             }
                         }
 
                         .img-photo {
-                            width: 380px;
-                            height: 263px;
+                            width: 23.75rem;
+                            height: 16.4375rem;
 
-                            transform: translateY(38px);
+                            transform: translateY(2.375rem);
                         }
 
                         .text {
-                            width: 380px;
-                            height: 90px;
+                            width: 23.75rem;
+                            height: 5.625rem;
 
                             transform-origin: top;
-                            transform: translateY(81px);
+                            transform: translateY(5.0625rem);
 
                             p {
-                                font-size: 22px;
+                                font-size: 1.375rem;
                                 color: $color__font;
                                 font-family: $notoTC;
-                                line-height: 30px;
+                                line-height: 1.875rem;
                             }
                         }
                     }

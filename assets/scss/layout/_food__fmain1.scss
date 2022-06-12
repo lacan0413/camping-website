@@ -1,9 +1,16 @@
 .fmain1 {
     width: 100%;
-    height: 412px;
+    height: 25.75rem;
     background-color: $color__white;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     &__container {
+        width: 37.5rem;
+        height: 14.375rem;
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -14,24 +21,26 @@
             align-items: center;
             justify-content: center;
 
-            margin-top: 111px;
+            margin-top: 1.0625rem;
 
             h1 {
-                font-size: 60px;
+                font-size: 3.75rem;
                 color: $color__aux;
                 font-family: $openSans;
-                text-shadow: 0 4px 4px rgb(221, 213, 213);
-                margin-bottom: 52px;
+                margin-bottom: 1.75rem;
+                line-height: 5.125rem;
+                font-weight: 400;
             }
 
-            p {
-                font-size: 22px;
-                color: $color__font;
-                font-family: $notoTC;
-                margin-bottom: 27px;
+            .p__container {
+                width: 37.5rem;
+                height: 7.5rem;
 
-                &:last-child {
-                    margin-right: 353px;
+                p {
+                    font-size: 1.375rem;
+                    color: $color__font;
+                    font-family: $notoTC;
+                    line-height: 2.5rem;
                 }
             }
         }

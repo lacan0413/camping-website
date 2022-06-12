@@ -1,6 +1,6 @@
 .lheader {
     width: 100%;
-    height: 400px;
+    height: 25rem;
     background-color: $color__block1;
 
     .nav {
@@ -25,14 +25,14 @@
 
                 a {
                     img {
-                        width: 82px;
-                        height: 57px;
+                        width: 5.125rem;
+                        height: 3.5625rem;
                     }
                 }
             }
 
             .nav__navlinks {
-                
+
                 background-color: transparent;
                 flex: 7;
                 display: flex;
@@ -67,7 +67,7 @@
 
     &__right {
         max-width: 50vw;
-        height: 400px;
+        height: 25rem;
         position: absolute;
         top: 0;
         right: 0;
@@ -86,36 +86,36 @@
         justify-content: center;
 
         .lheader__text-box {
-            width: 417px;
-            height: 166px;
+            width: 26.0625rem;
+            height: 10.375rem;
             color: $color__aux;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
 
-            margin-top: 208px;
+            margin-top: 13rem;
 
             p {
-                font-size: 22px;
+                font-size: 1.375rem;
                 font-family: $notoTC;
             }
 
             h1 {
-                font-size: 80px;
+                font-size: 5rem;
                 font-family: $openSans;
                 font-weight: bold;
-                margin-top: 14px;
+                margin-top: 0.875rem;
                 position: relative;
 
                 &::after {
                     content: '';
-                    width: 213px;
-                    height: 3px;
+                    width: 13.3125rem;
+                    height: 0.1875rem;
                     background-color: $color__aux;
                     position: absolute;
-                    bottom: -27px;
-                    left: 95px;
+                    bottom: -1.6875rem;
+                    left: 5.9375rem;
                 }
             }
         }
@@ -123,7 +123,7 @@
 }
 
 .green-part {
-    max-width: 100vw;
-    height: 55px;
+    width: 100%;
+    height: 3.4375rem;
     background-color: $color__aux;
 }
