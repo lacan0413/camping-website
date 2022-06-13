@@ -1,6 +1,6 @@
 .fmain3 {
     width: 100%;
-    height: 41.125rem;
+    height: 658px;
     background-color: $color__white;
 
     &__container {
@@ -9,19 +9,19 @@
         align-items: center;
         justify-content: center;
 
-        margin-top: 10.8125rem;
+        margin-top: 173px;
 
         .fmain3__left-step02 {
-            width: 31.5625rem;
-            height: 20rem;
+            width: 505px;
+            height: 320px;
 
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
 
-            margin-left: 3.5rem;
-            margin-right: 5.1875rem;
+            margin-left: 56px;
+            margin-right: 83px;
 
             position: relative;
 
@@ -29,45 +29,45 @@
                 width: 0;
                 height: 0;
                 border-style: solid;
-                border-width: 7rem 5.0625rem 0 5.0625rem;
+                border-width: 112px 81px 0 81px;
                 border-color: $color__block2 transparent transparent transparent;
 
                 position: absolute;
-                top: -14.9375rem;
-                left: 0rem;
+                top: -239px;
+                left: 0px;
             }
 
             .img {
-                margin-right: 1.5625rem;
+                margin-right: 25px;
 
                 img {
-                    width: 11.875rem;
-                    height: 20rem;
+                    width: 190px;
+                    height: 320px;
                 }
             }
 
             .text-h1 {
-                width: 15.625rem;
-                height: 6.25rem;
+                width: 250px;
+                height: 100px;
 
                 h1 {
-                    font-size: 2.5rem;
+                    font-size: 40px;
                     color: $color__aux;
                     font-weight: 400;
                     font-family: $notoTC;
-                    line-height: 3.125rem;
+                    line-height: 50px;
                 }
             }
 
             .text-p {
-                width: 18.125rem;
-                height: 10rem;
+                width: 290px;
+                height: 160px;
 
                 p {
-                    font-size: 1.375rem;
+                    font-size: 22px;
                     color: $color__font;
                     font-family: $notoTC;
-                    line-height: 2.5rem;
+                    line-height: 40px;
                 }
             }
         }
@@ -81,11 +81,11 @@
                 justify-content: center;
 
                 .cube {
-                    width: 22.0625rem;
-                    height: 13.875rem;
+                    width: 353px;
+                    height: 222px;
                     background-color: $color__block1;
-                    border-top: 0.1875rem solid $color__aux;
-                    box-shadow: -0.25rem 0.25rem 0.5rem grey;
+                    border-top: 3px solid $color__aux;
+                    box-shadow: -4px 4px 8px grey;
 
                     display: flex;
                     flex-direction: column;
@@ -95,97 +95,97 @@
                     position: relative;
 
                     &:nth-child(1) {
-                        margin-top: 2rem;
+                        margin-top: 32px;
                     }
 
                     &:nth-child(2) {
-                        margin-top: -6.625rem;
-                        transform: translateX(1.125rem);
+                        margin-top: -106px;
+                        transform: translateX(18px);
                     }
 
                     &:nth-child(3) {
-                        margin-top: 14.1875rem;
-                        transform: translateX(-4rem);
+                        margin-top: 227px;
+                        transform: translateX(-64px);
                         z-index: 2;
                     }
 
                     .sticker {
-                        width: 8.1875rem;
-                        height: 4.125rem;
+                        width: 131px;
+                        height: 66px;
                         background-color: #FFD449;
-                        box-shadow: -0.25rem 0.25rem 0.75rem rgb(117, 117, 117);
+                        box-shadow: -4px 4px 12px rgb(117, 117, 117);
 
                         display: flex;
                         align-items: center;
                         justify-content: center;
 
                         position: absolute;
-                        top: -3.25rem;
-                        left: 6.75rem;
+                        top: -52px;
+                        left: 108px;
 
                         p {
-                            font-size: 1.5rem;
+                            font-size: 24px;
                             color: $color__font;
                             font-family: $notoTC;
-                            line-height: 2.5rem;
+                            line-height: 40px;
                         }
                     }
 
                     .check-list {
-                        width: 19.375rem;
-                        height: 7.5rem;
+                        width: 310px;
+                        height: 120px;
 
                         display: flex;
                         flex-direction: row;
                         align-items: center;
                         justify-content: center;
 
-                        margin-top: 0.25rem;
+                        margin-top: 4px;
 
                         .list-square {
-                            width: 2.8125rem;
-                            height: 7.5rem;
+                            width: 45px;
+                            height: 120px;
 
-                            margin-top: 0.5625rem;
-                            transform: translateX(0.125rem);
+                            margin-top: 9px;
+                            transform: translateX(2px);
 
                             .squre {
-                                width: 1.75rem;
-                                height: 1.75rem;
-                                border: 0.0625rem solid #000;
+                                width: 28px;
+                                height: 28px;
+                                border: 1px solid #000;
                             }
                         }
 
                         .list-p {
-                            width: 16.625rem;
-                            height: 7.5rem;
+                            width: 266px;
+                            height: 120px;
 
                             p {
-                                font-size: 1.375rem;
+                                font-size: 22px;
                                 color: $color__font;
                                 font-family: $notoTC;
                                 font-weight: 400;
-                                line-height: 2.5rem;
+                                line-height: 40px;
                             }
                         }
                     }
 
                     .img1 {
                         position: absolute;
-                        top: -3.8125rem;
-                        right: -10.625rem;
+                        top: -61px;
+                        right: -170px;
                     }
                     
                     .img2 {
                         position: absolute;
-                        bottom: -10.25rem;
-                        left: 7.3125rem;
+                        bottom: -164px;
+                        left: 117px;
                     }
 
                     .img3 {
                         position: absolute;
-                        bottom: -3.9375rem;
-                        right: -1.25rem
+                        bottom: -63px;
+                        right: -20px
                     }
                 }
             }

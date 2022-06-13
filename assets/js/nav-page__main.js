@@ -4,7 +4,7 @@
     
     var timeCounter = setInterval(function () {
         getElementIndex();
-    }, 4760);
+    }, 4000);
 
 
 

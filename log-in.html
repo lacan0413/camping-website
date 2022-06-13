@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="露營新手的最佳指引" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>露營趣 | 會員登入</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/pure-css/account__pure-css/reset.css">
+  <link rel="stylesheet" href="./assets/pure-css/account__pure-css/log-in.css">
+  <link rel="stylesheet" href="./assets/pure-css/account__pure-css/loading.css">
+  <!-- favicon -->
+  <link rel="icon" href="./assets/img/favicon.svg">
+  <!--import google icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <!-- loading effect =============================================== -->
+    <div id="transition" class="transition__load-background transition__active"></div>
+    <script src="./assets/js/loading.js"></script>
+  
+
+
+
+
+  <!-- main=============================================== -->
+  <main>
+    <a href="./nav-page.html"><span class="material-symbols-outlined"> close </span></a>
+    <div class="container">
+      <a href="./nav-page.html">
+        <img class="logo" src="./assets/img/logo/logo/logo_black.svg" alt="露營趣logo" /></a>
+      <!-- tab -->
+      <ol class="tab">
+        <li class="tabLink" onclick="openTab(event, 'log-in')" id="defaultOpen">
+          登入
+        </li>
+        <li class="tabLink" onclick="openTab(event, 'sign-up')">註冊</li>
+      </ol>
+      <!-- tabContent(登入) -->
+      <form id="log-in" class="tabContent">
+        <div class="tabContent__item">
+          <label for="account">帳號</label>
+          <input type="account" id="account" name:"account" placeholder="請輸入帳號">
+        </div>
+        <div class="tabContent__item">
+          <label for="password">密碼</label>
+          <input type="password" id="password" name:"password" placeholder="請輸入密碼">
+        </div>
+        <input type="submit" class="tabContent__button" value="登入" onclick="logIn()" />
+        <a href="forget-password.html" class="tabContent__link">忘記密碼</a>
+      </form>
+      <!-- tabContent(註冊) -->
+      <form id="sign-up" class="tabContent">
+        <div class="tabContent__item">
+          <label for="account">帳號</label>
+          <input type="account" id="account" name:"account" placeholder="請輸入帳號">
+        </div>
+        <div class="tabContent__item">
+          <label for="password">密碼</label>
+          <input type="password" id="password" name:"password" placeholder="請輸入密碼">
+        </div>
+        <div class="tabContent__item">
+          <label for="confirm-password">確認密碼</label>
+          <input type="confirm-password" id="confirm-password" name:"confirm-password" placeholder="請再次輸入密碼">
+        </div>
+        <input type="submit" class="tabContent__button" value="註冊" onclick="signUp()" />
+        <a href="./nav-page.html" class="tabContent__link">登入</a>
+      </form>
+    </div>
+  </main>
+  <aside>
+    <img src="/assets/img/log-in/log-in__aside.jpg" alt="登入頁面圖片" />
+  </aside>
+  <script src="/assets/js/log-in.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

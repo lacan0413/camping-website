@@ -1,6 +1,5 @@
 .lheader {
-    width: 100%;
-    height: 25rem;
+    height: 400px;
     background-color: $color__block1;
 
     .nav {
@@ -25,8 +24,8 @@
 
                 a {
                     img {
-                        width: 5.125rem;
-                        height: 3.5625rem;
+                        width: 82px;
+                        height: 57px;
                     }
                 }
             }
@@ -43,8 +42,8 @@
                     font-family: $notoTC;
 
                     i {
-                        font-size: 1rem;
-                        margin-right: -1.1rem;
+                        font-size: 16px;
+                        margin-right: -17.6px;
                         transform: scale(0);
                         transition: 450ms;
                     }
@@ -58,7 +57,7 @@
                     a {
                         text-decoration: none;
                         color: $color__font;
-                        font-size: 1.3rem;
+                        font-size: 20.8px;
                     }
                 }
             }
@@ -66,16 +65,18 @@
     }
 
     &__right {
-        max-width: 50vw;
-        height: 25rem;
+        width: 50%;
+        height: 400px;
         position: absolute;
         top: 0;
         right: 0;
         z-index: 2;
         overflow: hidden;
+        opacity: 0.1;
 
         img {
-            opacity: 0.1;
+            width: 100%;
+            display: block;
         }
     }
 
@@ -86,37 +87,39 @@
         justify-content: center;
 
         .lheader__text-box {
-            width: 26.0625rem;
-            height: 10.375rem;
+            width: 417px;
+            height: 166px;
             color: $color__aux;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
 
-            margin-top: 13rem;
+
+            margin-top: 208px;
 
             p {
-                font-size: 1.375rem;
+                font-size: 22px;
                 font-family: $notoTC;
             }
 
             h1 {
-                font-size: 5rem;
+                font-size: 80px;
                 font-family: $openSans;
                 font-weight: bold;
-                margin-top: 0.875rem;
+                margin-top: 14px;
                 position: relative;
 
                 &::after {
                     content: '';
-                    width: 13.3125rem;
-                    height: 0.1875rem;
+                    width: 213px;
+                    height: 3px;
                     background-color: $color__aux;
                     position: absolute;
-                    bottom: -1.6875rem;
-                    left: 5.9375rem;
+                    bottom: -27px;
+                    left: 95px;
                 }
+
             }
         }
     }
@@ -124,6 +127,6 @@
 
 .green-part {
     width: 100%;
-    height: 3.4375rem;
+    height: 55px;
     background-color: $color__aux;
 }

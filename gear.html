@@ -13,42 +13,51 @@
 </head>
 
 <body>
+    <!-- loading effect =============================================== -->
+    <div id="transition" class="transition__load-background transition__active"></div>
+    <script src="./assets/js/loading.js"></script>
+
+
+
+
+
+    
+    <!-- gnavbar=============================================== -->
+    <nav class="nav">
+        <article class="nav__container">
+            <section class="nav__logo">
+                <a href="./nav-page.html"><img src="./assets/img/logo/logo/logo_black.svg" alt="logo" /></a>
+            </section>
+
+            <section class="nav__navlinks">
+                <li class="navlink"><i class="fas fa-map-marker-alt"></i><a href="./location.html">&nbsp;&nbsp;找地點</a>
+                </li>
+                <li class="navlink"><i class="fas fa-tools"></i><a href="./gear.html">&nbsp;&nbsp;找裝備</a></li>
+                <li class="navlink"><i class="fas fa-utensils"></i><a href="./food.html">&nbsp;&nbsp;找食材</a>
+                </li>
+                <li class="navlink"><i class="fas fa-user"></i><a href="./log-in.html">&nbsp;&nbsp;會員登入</a></li>
+            </section>
+        </article>
+    </nav>
+
+
+    
+
 
     <!-- gheader=============================================== -->
-    <header class="gheader">
-        <article class="gheader__container">
-            <!-- navbar=============================================== -->
-            <nav class="nav">
-                <article class="nav__container">
-                    <section class="nav__logo">
-                        <a href="./nav-page.html"><img src="./assets/img/logo/logo/logo_black.svg" alt="logo" /></a>
-                    </section>
+    <header class="header">
 
-                    <section class="nav__navlinks">
-                        <li class="navlink"><i class="fas fa-map-marker-alt"></i><a
-                                href="./location.html">&nbsp;&nbsp;找地點</a>
-                        </li>
-                        <li class="navlink"><i class="fas fa-tools"></i><a href="#">&nbsp;&nbsp;找裝備</a></li>
-                        <li class="navlink"><i class="fas fa-utensils"></i><a href="#">&nbsp;&nbsp;找食材</a></li>
-                        <li class="navlink"><i class="fas fa-user"></i><a href="#">&nbsp;&nbsp;會員登入</a></li>
-                    </section>
-                </article>
-            </nav>
+        <img class="header__right-img" src="./assets/img/nav-page__main/nav-page__main4.jpg" alt="header-right-img">
 
-            <section class="gheader__right">
-                <img src="./assets/img/nav-page__main/nav-page__main2.jpg" alt="header right img">
-            </section>
-
-            <section class="gheader__text">
-                <section class="gheader__text-box">
-                    <p>找裝備</p>
-                    <h1>GEAR</h1>
-                </section>
-            </section>
-
+        <article class="header__text">
+            <div class="header__text-box">
+                <p>找裝備</p>
+                <h1>GEAR</h1>
+            </div>
         </article>
+
+        <div class="green-part"></div>
     </header>
-    <section class="green-part"></section>
 
 
 
@@ -248,7 +257,7 @@
 
                 </section>
             </article>
-            
+
         </article>
     </main>
 
@@ -402,35 +411,25 @@
 
 
 
-    <!-- gfooter=============================================== -->
-    <footer class="gfooter">
-        <article class="gfooter__container">
+    <!-- ffooter=============================================== -->
+    <footer class="footer">
+        <div class="footer__container">
 
-            <article class="gfooter__logo">
-                <section class="logo__container">
-                    <img src="./assets/img/logo.png" alt="logo">
-                </section>
-            </article>
+            <section class="footer__logo">
+                <img src="./assets/img/logo.png" alt="logo">
+            </section>
 
-            <article class="gfooter__list">
-                <section class="list__container">
-                    <ul>
-                        <a href="./location.html"><li>找地點</li></a>
-                        <a href="#"><li>找食材</li></a>
-                        <a href="#"><li>找裝備</li></a>
-                        <a href="#"><li>會員登入</li></a>
-                    </ul>
-                </section>
-            </article>
+            <ul class="footer__link-list">
+                <li><a href="./location.html">找地點</a></li>
+                <li><a href="./food.html">找食材</a></li>
+                <li><a href="./gear.html">找裝備</a></li>
+                <li><a href="./log-in.html">會員登入</a></li>
+            </ul>
 
-            <article class="gfooter__copyright">
-                <p>Copyright © 2022 露營趣 版權所有</p>
-            </article>
+            <p class="footer__copyright">Copyright © 2022 露營趣 版權所有</p>
 
-        </article>
+        </div>
     </footer>
-
-
 
 </body>
 

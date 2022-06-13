@@ -1,0 +1,14 @@
+.transition__load-background {
+    width: 100%;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    z-index: 101;
+    background-color: $color__aux;
+    transition: 500ms ease-in-out;
+}
+
+.transition__load-background.transition__active {
+    right: 0;
+}

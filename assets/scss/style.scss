@@ -11,25 +11,27 @@
 @import 'layout/nav-page__main2';
 
 //location
-@import 'layout/location__lheader';
 @import 'layout/location__lmain';
 @import 'layout/location__lmain2';
 @import 'layout/location__lmain3';
-@import 'layout/location__lfooter';
 
 //gear
-@import 'layout/gear__gheader';
 @import 'layout/gear__gmain1';
 @import 'layout/gear__gmain2';
 @import 'layout/gear__gmain3';
 @import 'layout/gear__gmain4';
 @import 'layout/gear__gmain5';
-@import 'layout/gear__gfooter';
 
-// //food
-@import 'layout/food__fheader';
+//food
 @import 'layout/food__fmain1';
 @import 'layout/food__fmain2';
 @import 'layout/food__fmain3';
 @import 'layout/food__fmain4';
-@import 'layout/food__ffooter';
+
+//component
+@import 'component/navbar';
+@import 'component/header';
+@import 'component/footer';
+
+//animation-class
+@import 'animation-class/loading';

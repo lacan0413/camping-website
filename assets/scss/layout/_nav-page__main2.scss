@@ -7,16 +7,16 @@
         .main2__font {
             z-index: 50;
             position: absolute;
-            bottom: 7.375rem;
-            left: 12.25rem;
+            bottom: 118px;
+            left: 196px;
 
             p {
-                font-size: 1.375rem;
+                font-size: 22px;
                 color: $color__white;
-                line-height: 1.8725rem;
+                line-height: 29.96px;
                 font-weight: 100;
                 font-family: $notoTC;
-                letter-spacing: 0.3rem;
+                letter-spacing: 4.8px;
 
                 &:nth-child(2) {
                     margin-top: 8px;
@@ -30,18 +30,18 @@
             h1 {
                 font-family: $openSans;
                 color: $color__white;
-                font-size: 5rem;
+                font-size: 80px;
                 font-weight: extra-bold;
                 position: relative;
 
-                margin-top: 0.875rem;
-                margin-bottom: 2.125rem;
+                margin-top: 14px;
+                margin-bottom: 34px;
             }
 
             .div {
 
-                width: 13.3125rem;
-                height: 0.1875rem;
+                width: 213px;
+                height: 3px;
                 background-color: $color__white;
             }
         }

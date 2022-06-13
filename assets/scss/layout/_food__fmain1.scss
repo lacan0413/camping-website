@@ -1,6 +1,6 @@
 .fmain1 {
     width: 100%;
-    height: 25.75rem;
+    height: 412px;
     background-color: $color__white;
 
     display: flex;
@@ -8,8 +8,8 @@
     justify-content: center;
 
     &__container {
-        width: 37.5rem;
-        height: 14.375rem;
+        width: 600px;
+        height: 230px;
 
         display: flex;
         align-items: center;
@@ -21,26 +21,26 @@
             align-items: center;
             justify-content: center;
 
-            margin-top: 1.0625rem;
+            margin-top: 17px;
 
             h1 {
-                font-size: 3.75rem;
+                font-size: 60px;
                 color: $color__aux;
                 font-family: $openSans;
-                margin-bottom: 1.75rem;
-                line-height: 5.125rem;
+                margin-bottom: 28px;
+                line-height: 82px;
                 font-weight: 400;
             }
 
             .p__container {
-                width: 37.5rem;
-                height: 7.5rem;
+                width: 600px;
+                height: 120px;
 
                 p {
-                    font-size: 1.375rem;
+                    font-size: 22px;
                     color: $color__font;
                     font-family: $notoTC;
-                    line-height: 2.5rem;
+                    line-height: 40px;
                 }
             }
         }

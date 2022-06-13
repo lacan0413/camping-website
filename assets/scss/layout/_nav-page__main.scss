@@ -13,10 +13,10 @@
             height: 20vh;
             position: absolute;
             bottom: 10%;
-            border-radius: 1.25rem;
+            border-radius: 20px;
             background-position: center;
             background-size: cover;
-            transition: 2000ms;
+            transition: 2s;
 
             @for $i from 1 through 4 {
                 &:nth-child(#{$i}) {
@@ -33,7 +33,7 @@
 
             &[data-index='0'] {
                 width: 100%;
-                height: 100%;
+                height: 100vh;
                 bottom: 0;
                 left: 0;
                 border-radius: 0;
