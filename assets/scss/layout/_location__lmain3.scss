@@ -1,66 +1,72 @@
 .lmain3 {
     height: 939px;
     background-color: $color__white;
+    background-color: rgba(128, 255, 93, 0.264);
 
-    &__container {
+    position: relative;
+
+    .lmain3__triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 114px 81px 0 81px;
+        border-color: $color__block2 transparent transparent transparent;
+
+        //仍再想辦法定位
+        position: absolute;
+        top: 0px;
+        left: 65px;
+    }
+
+    .lmain3__container {
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
 
-        padding-top: 124px;
-        margin-left: 162px;
+        padding-top: 97px;
+        // margin-left: 0px;
 
         .lmain3__left-step02 {
-            width: 505px;
-            height: 320px;
-
+            background-color: rgba(255, 42, 152, 0.314);
+            width: 100%;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
 
+            width: 505px;
+            height: 320px;
+
             margin-right: 87px;
-
-            position: relative;
-
-            .triangle {
-                width: 0;
-                height: 0;
-                border-style: solid;
-                border-width: 114px 81px 0 81px;
-                border-color: $color__block2 transparent transparent transparent;
-
-                position: absolute;
-                top: -193px;
-                left: -45px;
-            }
 
             .img {
                 margin-right: 25px;
-
-                img {
-                    width: 190px;
-                    height: 320px;
-                }
             }
 
-            .text-h1 {
-                width: 290px;
-                height: 100px;
+            .text {
+                width: 550px;
+                height: 320px;
 
                 h1 {
+                    width: 250px;
+                    height: 100px;
+
                     font-size: 40px;
                     color: $color__aux;
                     font-family: $notoTC;
-                }
-            }
+                    font-weight: 400;
+                    line-height: 50px;
 
-            .text-p {
-                width: 381px;
-                height: 30px;
+                    margin-top: 25px;
+                    margin-bottom: 10px;
+                }
 
                 p {
+                    width: 290px;
+                    height: 160px;
+
                     font-size: 22px;
                     color: $color__font;
                     font-family: $notoTC;
@@ -69,7 +75,12 @@
             }
         }
 
+
+
+
+
         .lmain3__right {
+            background-color: rgba(49, 255, 255, 0.2);
 
             &__container {
                 display: flex;
@@ -89,12 +100,15 @@
                     align-items: center;
                     justify-content: center;
 
+                    position: relative;
+
                     &:nth-child(1) {
                         transform: translateY(138px);
                     }
 
                     &:nth-child(2) {
-                        transform: translateY(53px) translateX(18px);
+                        transform: translateY(53px);
+                        transform: translateX(18px);
                     }
 
                     &:nth-child(3) {
@@ -110,6 +124,11 @@
                         background-color: #FFD449;
                         box-shadow: -4px 4px 12px rgb(117, 117, 117);
 
+                        font-size: 24px;
+                        color: $color__font;
+                        font-family: $notoTC;
+                        line-height: 40px;
+
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -118,48 +137,63 @@
                         left: 50%;
                         top: -11%;
                         transform: translateX(-50%);
-
-                        p {
-                            font-size: 24px;
-                            color: $color__font;
-                            font-family: $notoTC;
-                            line-height: 40px;
-                        }
                     }
 
-                    .check-list {
-                        width: 310px;
+
+                    .square {
+                        position: absolute;
+                        top: 57px;
+                        left: 22px;
+                    }
+
+                    .square2 {
+                        top: 200px;
+                    }
+
+                    .square4 {
+                        top: 160px;
+                    }
+
+                    .square5 {
+                        top: 52.8px;
+                        left: 72.5px;
+                    }
+
+                    .square6 {
+                        top: 197px;
+                        left: 72.5px;
+                    }
+
+                    .text {
+                        font-size: 22px;
+                        color: $color__font;
+                        font-family: $notoTC;
+                        line-height: 32px;
+
+                        width: 266px;
                         height: 120px;
-                        display: flex;
-                        flex-direction: row;
-                        align-items: center;
-                        justify-content: center;
 
-                        margin-bottom: 22px;
+                        position: absolute;
+                        top: 50px;
+                        left: 66px;
+                    }
 
-                        .list-square {
-                            width: 45px;
-                            height: 120px;
+                    .text2 {
+                        top: 192px;
+                    }
 
-                            .squre {
-                                width: 28px;
-                                height: 28px;
-                                border: 1px solid #000;
-                                transform: translateY(-4px);
-                            }
-                        }
+                    .text4 {
+                        top: 152px;
+                    }
 
-                        .list-p {
-                            width: 266px;
-                            height: 120px;
+                    .text5 {
+                        top: 47px;
+                        left: 117px;
+                    }
 
-                            p {
-                                font-size: 22px;
-                                color: $color__font;
-                                font-family: $notoTC;
-                                line-height: 32px;
-                            }
-                        }
+                    .text6 {
+                        top: 192px;
+                        left: 117px;
                     }
                 }
             }

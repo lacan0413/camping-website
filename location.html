@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>露營樂 | 找地點</title>
+    <meta name="description" content="露營新手的最佳指引" />
     <link rel="icon" href="./assets/img/favicon.svg">
     <link rel="stylesheet" href="./assets/scss/style.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />
@@ -20,10 +21,11 @@
 
 
 
-    
+
     <!-- lnavbar=============================================== -->
     <nav class="nav">
-        <article class="nav__container">
+
+        <div class="nav__container">
             <section class="nav__logo">
                 <a href="./nav-page.html"><img src="./assets/img/logo/logo/logo_black.svg" alt="logo" /></a>
             </section>
@@ -36,7 +38,8 @@
                 </li>
                 <li class="navlink"><i class="fas fa-user"></i><a href="./log-in.html">&nbsp;&nbsp;會員登入</a></li>
             </section>
-        </article>
+        </div>
+
     </nav>
 
 
@@ -64,7 +67,7 @@
 
     <!-- lmain1=============================================== -->
     <main class="lmain">
-        <article class="lmain__container">
+        <div class="lmain__container">
 
             <section class="lmain__text">
                 <h1>如何尋找露營地點</h1>
@@ -72,7 +75,7 @@
                 <p>對於剛投入露營活動的你，可透過下面的兩個步驟，找出適合的地點唷！</p>
             </section>
 
-        </article>
+        </div>
     </main>
 
 
@@ -81,53 +84,31 @@
 
     <!-- lmain2=============================================== -->
     <main class="lmain2">
-        <article class="lmain2__container">
+        <div class="lmain2__container">
 
             <section class="lmain2__left-step01">
-
                 <img class="img" src="./assets/img/location__lmain2/lmain2-step01.png" alt="step one">
-
-                <article class="lmain2__text">
+                <article class="text">
                     <h1>利用露營平台搜尋地點</h1>
                     <p>從愛露營、露營樂等露營平台，按照地區、營地特色等條件，篩選出適合你的露營場地清單。</p>
                 </article>
             </section>
 
-            <section class="lmain2__card1">
-                <article class="lmain2__card1__container">
-                    <section class="img">
-                        <img src="./assets/img/location__lmain2/lmain2-logo1.png" alt="logo">
-                    </section>
-                </article>
-                <article class="dotted">
-                    <img src="./assets/img/location__lmain2/lmain2-dot.png" alt="dot">
-                </article>
-                <article class="text-group">
+            <section class="lmain2__card">
+                <img class="img" src="./assets/img/location__lmain2/lmain2-logo1.png" alt="logo">
+                <div class="dotted" alt="dot">
                     <h1>露營樂</h1>
                     <p>可按照縣市別，篩選露營區。</p>
-                </article>
             </section>
 
-            <section class="lmain2__card2">
-                <article class="lmain2__card2__container">
-                    <section class="img">
-                        <img src="./assets/img/location__lmain2/lmain2-logo2.png" alt="logo">
-                    </section>
-                </article>
-
-                <article class="dotted">
-                    <img src="./assets/img/location__lmain2/lmain2-dot.png" alt="dot">
-                </article>
-
-                <section class="text-group">
+            <section class="lmain2__card">
+                <img class="img" src="./assets/img/location__lmain2/lmain2-logo2.png" alt="logo">
+                <div class="dotted" alt="dot">
                     <h1>愛露營</h1>
-                    <section class="text-p">
-                        <p>可透過北中南東、離島等地理分區，篩選營區。</p>
-                    </section>
-                </section>
+                    <p>可透過北中南東、離島等地理分區，篩選營區。</p>
             </section>
 
-        </article>
+        </div>
     </main>
 
 
@@ -136,107 +117,51 @@
 
     <!-- lmain3=============================================== -->
     <main class="lmain3">
-        <article class="lmain3__container">
+        <div class="lmain3__triangle"></div>
+
+        <div class="lmain3__container">
 
             <section class="lmain3__left-step02">
-
-                <div class="triangle"></div>
-
-                <section class="img">
-                    <img src="./assets/img/location__lmain2/lmain2-step02.png" alt="step one">
-                </section>
-
-                <section class="text">
-                    <section class="text-h1">
-                        <h1>確認露營地點的設備</h1>
-                    </section>
-                    <section class="text-p">
-                        <p>由於露營場地的型態會影響露營裝備的選擇，初步篩選地點後，需留意各營區的海拔高度、水電及衛浴設備等規劃。</p>
-                    </section>
-                </section>
-
+                <img class="img" src="./assets/img/location__lmain2/lmain2-step02.png" alt="step two">
+                <article class="text">
+                    <h1>確認露營地點的設備</h1>
+                    <p>由於露營場地的型態會影響露營裝備的選擇，初步篩選地點後，需留意各營區的海拔高度、水電及衛浴設備等規劃。</p>
+                </article>
             </section>
 
 
             <section class="lmain3__right">
-                <article class="lmain3__right__container">
+                <div class="lmain3__right__container">
+                    <article class="cube">
+                        <div class="sticker">海拔</div>
 
-                    <aside class="cube">
-                        <section class="sticker">
-                            <p>海拔</p>
-                        </section>
+                        <img src="./assets/img/location__lmain3/square.png" class="square square1"></img>
+                        <p class="text text1">1,000公尺以上高海拔：日夜溫差大，注意白天防曬及夜晚保暖。</p>
+                        <img src="./assets/img/location__lmain3/square.png" class="square square2"></img>
+                        <p class="text text2">500公尺以下低海拔：適合親子同樂，留意蚊蟲叮咬。</p>
+                    </article>
 
-                        <section class="check-list">
-                            <section class="list-square">
-                                <div class="squre"></div>
-                            </section>
-                            <section class="list-p">
-                                <p>1,000公尺以上高海拔：日夜溫差大，注意白天防曬及夜晚保暖。</p>
-                            </section>
-                        </section>
+                    <article class="cube">
+                        <div class="sticker">營位</div>
 
-                        <section class="check-list">
-                            <section class="list-square">
-                                <div class="squre"></div>
-                            </section>
-                            <section class="list-p">
-                                <p>1,000公尺以上高海拔：日夜溫差大，注意白天防曬及夜晚保暖。</p>
-                            </section>
-                        </section>
-                    </aside>
+                        <img src="./assets/img/location__lmain3/square.png" class="square square3"></img>
+                        <p class="text text3">確認營位大小，避免帳篷超過營位範圍。</p>
+                        <img src="./assets/img/location__lmain3/square.png" class="square square4"></img>
+                        <p class="text text4">確認營位數，衡量場地是否會過於擁擠。</p>
+                    </article>
 
-                    <aside class="cube">
-                        <section class="sticker">
-                            <p>營位</p>
-                        </section>
+                    <article class="cube">
+                        <div class="sticker">設備</div>
 
-                        <section class="check-list">
-                            <section class="list-square">
-                                <div class="squre"></div>
-                            </section>
-                            <section class="list-p">
-                                <p>確認營位數，衡量場地是否會過於擁擠。</p>
-                            </section>
-                        </section>
-
-                        <section class="check-list">
-                            <section class="list-square">
-                                <div class="squre"></div>
-                            </section>
-                            <section class="list-p">
-                                <p>確認營位數，衡量場地是否會過於擁擠。</p>
-                            </section>
-                        </section>
-                    </aside>
-
-                    <aside class="cube">
-                        <section class="sticker">
-                            <p>設備</p>
-                        </section>
-
-                        <section class="check-list">
-                            <section class="list-square">
-                                <div class="squre"></div>
-                            </section>
-                            <section class="list-p">
-                                <p>確認場地是否提供水電、盥洗空間、淋浴用品、公共冰箱等。</p>
-                            </section>
-                        </section>
-
-                        <section class="check-list">
-                            <section class="list-square">
-                                <div class="squre"></div>
-                            </section>
-                            <section class="list-p">
-                                <p>確認場地是否提供水電、盥洗空間、淋浴用品、公共冰箱等。</p>
-                            </section>
-                        </section>
-                    </aside>
-
-                </article>
+                        <img src="./assets/img/location__lmain3/square.png" class="square square5"></img>
+                        <p class="text text5">確認場地是否提供水電、盥洗空間、淋浴用品、公共冰箱等。</p>
+                        <img src="./assets/img/location__lmain3/square.png" class="square square6"></img>
+                        <p class="text text6">場地是否提供裝備租借，或者補給站可購買裝備及飲食。</p>
+                    </article>
+                </div>
             </section>
 
-        </article>
+        </div>
     </main>
 
 
