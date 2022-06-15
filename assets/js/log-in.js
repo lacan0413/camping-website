@@ -1,4 +1,4 @@
-/////////////////////切換tab的function(code來源:https://www.w3schools.com/howto/howto_js_tabs.asp)/////////////////////
+//改自:https://www.w3schools.com/howto/howto_js_tabs.asp
 function openTab(event, tabName) {
   // Declare all variables (using let)
   let i, tabContent, tabLink;
@@ -22,18 +22,28 @@ function openTab(event, tabName) {
 
 
 
-
-
-
 // Get the element with id="defaultOpen" and click on it
 document.getElementById('defaultOpen').click();
 
+
+
 /////////////////////登入按鈕的alert box/////////////////////
+
 function logIn() {
-  alert('您已登入，點選確認後進入導覽頁面');
+  setTimeout(() => {
+    setTimeout(() => {
+      alert('您已登入，點選確認後進入導覽頁面');
+    }, 0)
+    document.location.href = "./nav-page.html";
+  }, 0);
 }
 
 /////////////////////註冊按鈕的alert box/////////////////////
 function signUp() {
-  alert('註冊成功，點選確認後進入導覽頁面');
+  setTimeout(() => {
+    setTimeout(() => {
+      alert('註冊成功，點選確認後進入導覽頁面');
+    }, 0)
+    document.location.href = "./nav-page.html";
+  }, 0);
 }
