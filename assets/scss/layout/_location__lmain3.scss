@@ -1,50 +1,33 @@
 .lmain3 {
-    height: 939px;
+    min-height: 939px;
     background-color: $color__white;
-    background-color: rgba(128, 255, 93, 0.264);
-
-    position: relative;
-
-    .lmain3__triangle {
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 114px 81px 0 81px;
-        border-color: $color__block2 transparent transparent transparent;
-
-        //仍再想辦法定位
-        position: absolute;
-        top: 0px;
-        left: 65px;
-    }
 
     .lmain3__container {
-        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
 
-        padding-top: 97px;
-        // margin-left: 0px;
-
         .lmain3__left-step02 {
-            background-color: rgba(255, 42, 152, 0.314);
-            width: 100%;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
 
-            width: 505px;
-            height: 320px;
+            width: 26.302083333333333333%;
+            min-height: 320px;
 
-            margin-right: 87px;
+            margin-top: 245px;
+            margin-right: 2.0833333333333333333%;
+
+            position: relative;
 
             .img {
-                margin-right: 25px;
+                width: 41.317365269461077844%;
+                margin-right: 4.9900199600798403194%;
             }
 
+            //寫死
             .text {
                 width: 550px;
                 height: 320px;
@@ -53,7 +36,7 @@
                     width: 250px;
                     height: 100px;
 
-                    font-size: 40px;
+                    font-size: 4.3vmin;
                     color: $color__aux;
                     font-family: $notoTC;
                     font-weight: 400;
@@ -67,7 +50,7 @@
                     width: 290px;
                     height: 160px;
 
-                    font-size: 22px;
+                    font-size: 2.4vmin;
                     color: $color__font;
                     font-family: $notoTC;
                     line-height: 40px;
@@ -75,22 +58,21 @@
             }
         }
 
-
-
-
-
         .lmain3__right {
-            background-color: rgba(49, 255, 255, 0.2);
+            width: 60%;
 
             &__container {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-around;
 
+                margin-top: 166px;
+
+                //寫死待改
                 .cube {
                     width: 353px;
-                    height: 454px;
+                    height: 525px;
                     background-color: $color__block1;
                     border-top: 3px solid $color__aux;
                     box-shadow: -4px 4px 8px grey;
@@ -102,29 +84,13 @@
 
                     position: relative;
 
-                    &:nth-child(1) {
-                        transform: translateY(138px);
-                    }
-
-                    &:nth-child(2) {
-                        transform: translateY(53px);
-                        transform: translateX(18px);
-                    }
-
-                    &:nth-child(3) {
-                        width: 454px;
-                        height: 353px;
-                        transform: translateY(298px) translateX(-152px);
-                        z-index: 20;
-                    }
-
                     .sticker {
                         width: 131px;
                         height: 66px;
                         background-color: #FFD449;
                         box-shadow: -4px 4px 12px rgb(117, 117, 117);
 
-                        font-size: 24px;
+                        font-size: 2.6vmin;
                         color: $color__font;
                         font-family: $notoTC;
                         line-height: 40px;
@@ -139,6 +105,13 @@
                         transform: translateX(-50%);
                     }
 
+                    &:nth-child(1){
+                        margin-top: 82px;
+                    }
+
+                    &:nth-child(3){
+                        margin-top: 220px;
+                    }
 
                     .square {
                         position: absolute;
@@ -147,53 +120,53 @@
                     }
 
                     .square2 {
-                        top: 200px;
+                        top: 260px;
                     }
 
                     .square4 {
-                        top: 160px;
+                        top: 260px;
                     }
 
                     .square5 {
                         top: 52.8px;
-                        left: 72.5px;
+                        left: 22px;
                     }
 
                     .square6 {
-                        top: 197px;
-                        left: 72.5px;
+                        top: 260px;
+                        left: 22px;
                     }
 
                     .text {
-                        font-size: 22px;
+                        font-size: 2.4vmin;
                         color: $color__font;
                         font-family: $notoTC;
-                        line-height: 32px;
+                        line-height: 28px;
 
-                        width: 266px;
+                        width: 75.353%;
                         height: 120px;
 
                         position: absolute;
-                        top: 50px;
+                        top: 55px;
                         left: 66px;
                     }
 
                     .text2 {
-                        top: 192px;
+                        top: 259px;
                     }
 
                     .text4 {
-                        top: 152px;
+                        top: 259px;
                     }
 
                     .text5 {
-                        top: 47px;
-                        left: 117px;
+                        top: 50px;
+                        left: 69px;
                     }
 
                     .text6 {
-                        top: 192px;
-                        left: 117px;
+                        top: 259px;
+                        left: 69px;
                     }
                 }
             }

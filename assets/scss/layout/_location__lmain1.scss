@@ -1,4 +1,4 @@
-.fmain1 {
+.lmain1 {
     min-height: 412px;
     background-color: $color__white;
 
@@ -6,27 +6,27 @@
     align-items: center;
     justify-content: center;
 
-    .fmain1__text {
+    .lmain1__text {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        margin-top: 84px;
-
+        margin-top: 44px;
+        
         .h1 {
             font-size: 6.3vmin;
             color: $color__aux;
             font-family: $openSans;
             font-weight: 600;
             line-height: 82px;
+
             margin-bottom: 28px;
         }
 
         .p {
+            width: 51%;
             font-size: 2.4vmin;
-            width: 100%;
-            max-width: 600px;
             color: $color__font;
             font-family: $notoTC;
             line-height: 40px;

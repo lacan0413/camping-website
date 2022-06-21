@@ -1,3 +1,4 @@
+/* 將大部分標籤的預設樣式重製成以下的內容 */
 html,
 body,
 div,
@@ -79,12 +80,14 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-/* HTML5 display-role reset for older browsers */
+/* 賦予 HTML5 標籤基本的 Display:block ，用於輔助舊的瀏覽器能正常顯示 */
 article,
 aside,
 details,
@@ -96,33 +99,32 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
-
+/* 將 body 也就是整體的文字行高預設成 1 */
 body {
-    line-height: 1;
-    list-style: none;
+  line-height: 1;
 }
-
+/* 取消項目列表預設的輔助符號 */
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
-
+/* 隱藏引用標籤預設的引號(部分瀏覽器有) */
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
-
+/* 重置引用標籤的偽元素 */
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: '';
+  content: none;
 }
-
+/* 將表格初始化 */
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }

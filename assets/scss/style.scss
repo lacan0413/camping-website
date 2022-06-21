@@ -1,17 +1,22 @@
+//base
 @import 'base/reset';
 @import 'base/font';
 
+//variable
 @import 'variable/color';
 
+//mixin
 @import 'mixin/rwd';
+
+////////////////////////////////////////layout
 
 // nav-page
 @import 'layout/nav-page__nav';
-@import 'layout/nav-page__main';
+@import 'layout/nav-page__main1';
 @import 'layout/nav-page__main2';
 
 //location
-@import 'layout/location__lmain';
+@import 'layout/location__lmain1';
 @import 'layout/location__lmain2';
 @import 'layout/location__lmain3';
 
@@ -27,6 +32,8 @@
 @import 'layout/food__fmain2';
 @import 'layout/food__fmain3';
 @import 'layout/food__fmain4';
+
+////////////////////////////////////////////
 
 //component
 @import 'component/navbar';

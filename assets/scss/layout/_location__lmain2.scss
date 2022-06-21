@@ -1,106 +1,99 @@
 .lmain2 {
-    width: 100%;
-    height: 832px;
+    min-height: 832px;
     background-color: $color__block2;
 
-    &__container {
-        width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    // padding-top: 0px;
+
+    .lmain2__left-step01 {
+        width: 29.57102%;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
 
-        padding-top: 111px;
-        margin-left: 34px;
+        //寫死
+        margin-right: 6.875%;
 
-        .lmain2__left-step01 {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-
-            width: 505px;
-            height: 320px;
-
-            margin-right: 83px;
-
-            .img {
-                margin-right: 25px;
-            }
-
-            .text {
-                width: 290px;
-                min-height: 270px;
-
-                h1 {
-                    width: 250px;
-                    height: 100px;
-
-                    font-size: 40px;
-                    color: $color__aux;
-                    font-family: $notoTC;
-                    font-weight: 400;
-                    line-height: 50px;
-
-                    margin-bottom: 10px;
-                }
-
-                p {
-                    width: 290px;
-                    height: 160px;
-
-                    font-size: 22px;
-                    color: $color__font;
-                    font-family: $notoTC;
-                    line-height: 40px;
-                }
-            }
+        .img {
+            width: 36.5897%;
+            margin-right: 2.9354207436399217221%;
         }
 
-        .lmain2__card {
-            max-width: 481px;
-            height: 610px;
-            background-color: #fff;
-            border-radius: 50px;
+        .text {
+            width: 26.866456361724500526%;
+            min-height: 270px;
 
-            margin-right: 2.0833333333333333333%;
-
-            .img {
-                max-width: 381px;
-
-                margin-top: 86px;
-                margin-left: 50px;
-            }
-
-            .dotted {
-                width: 381px;
-                height: 0px;
-
-                border-top: 3px dashed rgba(85, 154, 105, 0.5);
-
-                margin-top: 10px;
-                margin-right: 50px;
-                margin-left: 50px;
-            }
-
+            //寫死
             h1 {
-                font-size: 26px;
-                color: $color__font;
-                font-family: $openSans;
-                font-weight: 700;
-                margin-top: 38px;
-            }
-
-            p {
-                font-size: 22px;
-                color: $color__font;
+                width: 290px;
+                font-size: 4.6vmin;
+                color: $color__aux;
                 font-family: $notoTC;
                 font-weight: 400;
-                line-height: 30px;
-
-                margin-top: 20px;
+                line-height: 50px;
+                margin-bottom: 10px;
             }
+
+            //寫死
+            p {
+                width: 290px;
+                font-size: 2.5vmin;
+                color: $color__font;
+                font-family: $notoTC;
+                line-height: 40px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .lmain2__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        max-width: 25.052083333333333333%;
+        min-height: 610px;
+        background-color: #fff;
+        border-radius: 50px;
+
+        //寫死
+        margin-right: 40px;
+
+        .img {
+            width: 79.209979209979209979%;
+            margin: 0 50px;
+            margin-top: -138px;
+        }
+
+        .dotted {
+            width: 79.209979209979209979%;
+            height: 0;
+            border-top: 3px dashed $color__footer;
+            margin-top: 38px;
+        }
+
+        h1 {
+            font-size: 3.1vmin;
+            text-align: center;
+            color: $color__font;
+            font-family: $openSans;
+            font-weight: 700;
+            margin-top: 38px;
+        }
+
+        p {
+            font-size: 2.5vmin;
+            color: $color__font;
+            font-family: $notoTC;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: 10px;
         }
     }
 }

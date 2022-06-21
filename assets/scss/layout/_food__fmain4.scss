@@ -1,51 +1,67 @@
 .fmain4 {
-    width: 100%;
-    height: 416px;
+    min-height: 416px;
     background-color: $color__main;
+
+    // .triangle {
+    //     width: 0;
+    //     height: 0;
+    //     border-style: solid;
+    //     border-width: 112px 81px 0 81px;
+    //     border-color: $color__white transparent transparent transparent;
+    //     transform: translateX(-714px);
+    // }
 
     &__container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
 
-        .triangle {
-            width: 0;
-            height: 0;
-            border-style: solid;
-            border-width: 112px 81px 0 81px;
-            border-color: $color__white transparent transparent transparent;
-            transform: translateX(-714px);
+        .img-girl {
+            width: 5.1578125%;
+            max-height: 361.02px;
+            color: $color__font;
+            z-index: 3;
+
+            transform: translateY(-17px);
         }
 
         .fmain4__text {
-            width: 600px;
-            height: 190px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-            margin-top: 3px;
+            width: 31.25%;
 
-            h1 {
-                font-size: 60px;
+            margin: 0 150px;
+
+            .h1 {
+                font-family: $notoTC;
                 color: $color__aux;
-                line-height: 82px;
                 font-weight: 400;
-
-                transform: translateX(60px);
-                margin-bottom: 28px;
+                font-size: 6.4vmin;
+                line-height: 82px;
+                margin-top: 43px;
             }
 
-            .p__container {
-                width: 600px;
+            .p {
+                width: 75.662042875157629256%;
                 height: 80px;
+                font-family: $notoTC;
+                font-weight: 400;
+                font-size: 2.4vmin;
+                line-height: 40px;
 
-                p {
-                    font-size: 22px;
-                    color: $color__font;
-                    font-family: $notoTC;
-                    font-weight: 400;
-                    line-height: 40px;
-                }
+                margin-top: 28px;
             }
+        }
+
+        .img-box {
+            width: 5.3333333333333333333%;
+            max-height: 122.6px;
+
+            transform: translateY(95px);
         }
     }
 }

@@ -1,146 +1,117 @@
 .gmain2 {
-    width: 100%;
-    height: 1025px;
-    background-color: $color__block2;
-    
-    &__container {
+    min-height: 1081px;
+    background-color: $color__main;
+
+    .gmain2__container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        .gmain2__description {
-            width: 100vw;
-            height: 249px;
+        .gmain2__top {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            width: 46.5625%;
+            min-height: 190px;
 
-            margin-bottom: 40px;
+            margin-top: 111px;
 
-            .description__container {
+            .left-img-group {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                width: 12.5%;
+                min-height: 190px;
 
-                .left-img__container {
-                    width: 190px;
-                    height: 280px;
-                    transform: translateY(-21px);
+                //寫死
+                margin-top: 43px;
+                margin-right: 131px;
 
-                    margin-right: 32px;
-
-                    img {
-                        width: 190px;
-                        height: 280px;
-                    }
+                .left {
+                    // 寫死
+                    margin-right: 8.82px;
+                    transform: translateY(5px);
                 }
 
-                .text__container {
-                    width: 600px;
-                    height: 80px;
-                    transform: translateY(10px);
-
-                    p {
-                        font-size: 22px;
-                        color: $color__font;
-                        font-family: $notoTC;
-                        margin-bottom: 18px;
-                    }
-                }
-
-                .right-img__container {
-                    width: 95px;
-                    height: 73px;
-                    transform: translateY(55px);
-
-                    margin-left: 31px;
-
-                    img {
-                        width: 95px;
-                        height: 73px;
-                    }
-                }
-            }
-        }
-
-        .gmain2__goods {
-            width: 1523px;
-            height: 610px;
-
-            .goods__container {
-
-                .cards-group {
+                .right {
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     align-items: center;
                     justify-content: center;
 
-                    .card {
-                        width: 480px;
-                        height: 610px;
-                        background-color: #fff;
-                        box-shadow: 1px 4px 10px rgb(167, 165, 165);
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-
-                        &:nth-child(1) {
-                            margin-right: 40px;
-                        }
-
-                        &:nth-child(2) {
-                            margin-right: 40px;
-                        }
-
-                        .title {
-                            width: 380px;
-                            height: 35px;
-
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-
-                            transform: translateY(-25px);
-
-                            h2 {
-                                font-size: 26px;
-                                color: $color__font;
-                                font-family: $notoTC;
-                                font-weight: 400;
-                            }
-                        }
-
-                        .img-line {
-                            div {
-                                width: 380px;
-                                height: 3px;
-                                background-color: $color__footer;
-                                opacity: 0.5;
-                            }
-                        }
-
-                        .img-photo {
-                            width: 380px;
-                            height: 263px;
-
-                            transform: translateY(38px);
-                        }
-
-                        .text {
-                            width: 380px;
-                            height: 90px;
-
-                            transform-origin: top;
-                            transform: translateY(81px);
-
-                            p {
-                                font-size: 22px;
-                                color: $color__font;
-                                font-family: $notoTC;
-                                line-height: 30px;
-                            }
-                        }
+                    .p {
+                        font-family: $notoTC;
+                        font-weight: 400;
+                        line-height: 54px;
+                        transform: translateY(-35px);
+                        font-size: 4.2vmin;
                     }
+                }
+            }
+
+            .right-p {
+                //寫死
+                width: 594px;
+                font-family: $notoTC;
+                font-weight: 400;
+                line-height: 40px;
+                font-size: 2.4vmin;                
+            }
+        }
+
+        .gmain2__down {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 80.260416666666666667%;
+            min-height: 610px;
+            margin-top: 60px;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 31.492660442337658936%;
+                min-height: 610px;
+                background-color: #fff;
+
+                .title {
+                    width: 79.209979209979209979%;
+                    min-height: 35px;
+                    font-family: $notoTC;
+                    font-weight: 400;
+                    line-height: 35px;
+                    text-align: center;
+                    margin-top: -60px;
+                    margin-bottom: 38px;
+                    font-size: 2.8vmin;
+                }
+
+                .line {
+                    width: 79.209979209979209979%;
+                    min-height: 3px;
+                    background-color: $color__footer;
+                    margin-bottom: 38px;
+                }
+
+                .img {
+                    width: 79.209979209979209979%;
+                    margin-bottom: 38px;
+                }
+
+                .p {
+                    width: 79.209979209979209979%;
+                    min-height: 90px;
+                    font-family: $notoTC;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-size: 2.8vmin;
                 }
             }
         }

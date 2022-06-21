@@ -1,143 +1,148 @@
 .gmain4 {
-    width: 100%;
-    height: 841px;
+    min-height: 841px;
     background-color: $color__block1;
 
-    &__container {
+    .gmain4__container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
 
-        .left {
-            width: 434px;
-            height: 315px;
+        .gmain4__left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
 
-            margin-top: 155px;
+            width: 24.6875%;
+            min-height: 315px;
 
-            &__container {
+            margin-top: 301px;
+
+            // 寫死
+            margin-right: 40px;
+
+            .left-img-group {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                width: 12.5%;
+                min-height: 190px;
+                // 寫死
+                margin-right: 113.2px;
 
-                .img {
-                    width: 190px;
-                    height: 315px;
-
-                    img {
-                        width: 190px;
-                        height: 315px;
-                    }
+                .left {
+                    // 寫死
+                    margin-right: 8.82px;
+                    transform: translateY(5px);
                 }
 
-                .text {
-                    width: 213px;
-                    height: 240px;
-
+                .right {
                     display: flex;
+                    flex-direction: column;
                     align-items: center;
                     justify-content: center;
 
-                    transform: translateX(31px);
-
-                    p {
-                        font-size: 22px;
-                        color: $color__font;
+                    .p {
                         font-family: $notoTC;
-                        line-height: 34px;
+                        font-weight: 400;
+                        line-height: 54px;
+                        transform: translateY(-35px);
+                        font-size: 4.3vmin;
                     }
                 }
             }
+
+            .right-text {
+                // 寫死
+                width: 213px;
+                font-family: $notoTC;
+                font-weight: 400;
+                line-height: 40px;
+                font-size: 2.4vmin;
+            }
         }
 
-        .right {
-            width: 1002px;
-            height: 610px;
+        .gmain4__right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
 
-            &__container {
-                margin-left: 80px;
-                margin-top: 115px;
+            width: 52.7%;
+            min-height: 610px;
 
-                .card-groups {
+            margin-top: 111px;
+
+            .card {
+                width: 48.00002336201%;
+                min-height: 610px;
+                background-color: $color__white;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                .title {
+                    max-width: 381px;
+                    width: 100%;
+                    min-height: 35px;
+
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     align-items: center;
                     justify-content: center;
 
-                    .card {
-                        width: 480px;
-                        height: 610px;
-                        background-color: #fff;
+                    font-family: $notoTC;
+                    font-weight: 400;
+                    line-height: 35px;
+                    font-size: 2.8vmin;
 
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
+                    margin-bottom: 38px;
+                    margin-top: -15px;
 
-                        box-shadow: 0px 6px 26px rgb(175, 175, 175);
+                    position: relative;
 
-                        &:first-child {
-                            margin-right: 40px;
-                        }
-
-                        .title {
-
-                            h2 {
-                                font-size: 26px;
-                                font-family: $notoTC;
-                                color: $color__font;
-                                font-weight: normal;
-                                position: relative;
-
-                                &::before,
-                                &::after {
-                                    content: "";
-                                    width: 122px;
-                                    height: 3px;
-                                    background-color: $color__footer;
-                                }
-
-                                &::before {
-                                    position: absolute;
-                                    top: 12px;
-                                    right: 107px;
-                                }
-
-
-                                &::after {
-                                    position: absolute;
-                                    top: 12px;
-                                    left: 107px;
-                                }
-                            }
-                        }
-
-                        .img {
-                            margin-top: 38px;
-                            margin-bottom: 38px;
-
-
-                            img {
-                                width: 381px;
-                                height: 263px;
-                            }
-                        }
-
-                        .text {
-                            width: 381px;
-                            height: 90px;
-
-                            p {
-                                font-size: 22px;
-                                color: $color__font;
-                                font-family: $notoTC;
-                                line-height: 30px;
-                            }
-                        }
+                    &::before,
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 32.02099737532808399%;
+                        min-height: 3px;
+                        background-color: $color__footer;
                     }
+
+                    &::before {
+                        margin-right: 67.454068241469816273%;
+                    }
+
+                    &::after {
+                        margin-left: 67.454068241469816273%;
+                    }
+                }
+
+                #card-title2{
+                    margin-top: -18px;
+                }
+
+                .img {
+                    width: 100%;
+                    max-width: 381px;
+                    margin-bottom: 38px;
+                }
+
+                .text {
+                    width: 79.21%;
+                    font-family: $notoTC;
+                    font-weight: 400;
+                    line-height: 30px;
+                    font-size: 2.4vmin;
                 }
             }
         }
     }
 }
+

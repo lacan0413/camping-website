@@ -1,116 +1,132 @@
 .gmain3 {
-    width: 100%;
-    height: 1202px;
+    min-height: 1202px;
     background-color: #fff;
     
-    &__container {
+    .gmain3__container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        padding-bottom: 109px;
-
-        .description__container {
+        .gmain3__top {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            width: 46.5625%;
+            min-height: 190px;
 
             margin-top: 111px;
 
-            .left-img__container {
-                width: 190px;
-                height: 280px;
-                transform: translateY(-21px);
-
-                margin-right: 32px;
-
-                img {
-                    width: 190px;
-                    height: 280px;
-                }
-            }
-
-            .text__container {
-                width: 600px;
-                height: 80px;
-                transform: translateY(10px);
-
-                p {
-                    font-size: 22px;
-                    color: $color__font;
-                    font-family: $notoTC;
-                    margin-bottom: 18px;
-                }
-            }
-
-            .right-img__container {
-                width: 95px;
-                height: 73px;
-                transform: translateY(55px);
-
-                margin-left: 31px;
-
-                img {
-                    width: 95px;
-                    height: 73px;
-                }
-            }
-        }
-    }
-
-    &__goods {
-        width: 1530px;
-        height: 660px;
-
-        .goods__container {
-            margin-top: 40px;
-
-            .cards-group {
+            .left-img-group {
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                justify-content: space-between;
+                justify-content: center;
+                width: 12.5%;
+                min-height: 190px;
+                //寫死
+                margin-right: 131px;
 
-                .card {
+                .left {
+                    // 寫死
+                    margin-right: 8.82px;
+                    transform: translateY(5px);
+                }
+
+                .right {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
 
-                    margin-left: 50px;
-                    margin-right: 50px;
-
-                    .title-img {
-                        transform: translateY(-70px);
-                    }
-
-                    .img {
-                        width: 380px;
-                        height: 263px;
-
-                        transform: translateY(-40px);
-
-                        img {
-                            width: 380px;
-                            height: 263px;
-                        }
-                    }
-
-                    .text {
-                        width: 380px;
-                        height: 90px;
-
-                        p {
-                            font-size: 22px;
-                            color: $color__font;
-                            font-family: $notoTC;
-                            //原生line-height為20px
-                            line-height: 28px;
-                        }
+                    .p {
+                        font-family: $notoTC;
+                        font-weight: 400;
+                        line-height: 54px;
+                        transform: translateY(-35px);
+                        font-size: 4.3vmin;
                     }
                 }
+            }
+
+            .right-text {
+                //寫死
+                width: 594px;
+                font-family: $notoTC;
+                font-weight: 400;
+                line-height: 40px;
+                font-size: 2.4vmin;
+            }
+        }
+
+        .gmain3__down {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 79.7396%;
+            min-height: 661px;
+            
+            margin-top: 60px;
+           
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 31.6981%;
+                min-height: 661px;
+// 1920*0.797396=1531.00032
+// 1531.00032*0.316981=485.29801243392
+                .title-group {
+                    width: 100%;
+                    max-width: 382px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    margin-top: -1px;
+                    margin-bottom: 38px;
+
+                    .title-background-img{
+                        width: 100%;
+                        max-width: 382px;
+                    }
+
+                    .title-word {
+                        position: absolute;
+                        font-family: $notoTC;
+                        font-weight: 400;
+                        line-height: 35px;
+                        color: $color__font;
+                        font-size: 2.8vmin;
+                    }
+                }
+
+                .img{
+                    width: 100%;
+                    max-width: 381px;
+                }
+
+                .p {
+                    width: 100%;
+                    max-width: 381px;
+                    min-height: 90px;
+                    font-family: $notoTC;
+                    font-weight: 400;
+                    line-height: 30px;
+                    margin-top: 38px;
+                    font-size: 2.4vmin;
+                }
+            }
+
+            .line {
+                width: 0px;
+                height: 661px;
+                border-left: 3px dashed $color__footer;
             }
         }
     }
