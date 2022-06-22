@@ -2,20 +2,38 @@
     min-height: 800px;
     background-color: $color__white;
 
-    // .triangle {
-    //     width: 0;
-    //     height: 0;
-    //     border-style: solid;
-    //     border-width: 112px 81px 0 81px;
-    //     border-color: $color__white transparent transparent transparent;
-    //     transform: translateX(-714px);
-    // }
+    position: relative;
+
+    @include mobile {
+        min-height: 1392px;
+
+        position: relative;
+
+        .fmain3__triangle {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 112px 81px 0 81px;
+            border-color: $color__block2 transparent transparent transparent;
+
+            position: absolute;
+            top: 0;
+            left: 40%;
+        }
+    }
 
     &__container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         .fmain3__left-step02 {
             width: 26.302083333333333333%;
@@ -30,9 +48,19 @@
 
             margin-top: -119px;
 
+            @include mobile {
+                margin-top: 176px;
+            }
+
             .img {
                 width: 28.44311377245508982%;
                 margin-right: 10.204081632653061224%;
+
+                @include mobile {
+                    margin: 0 auto;
+                    margin-right: 26.968716289104638619%;
+                    width: 150px;
+                }
             }
 
             .text {
@@ -40,21 +68,29 @@
 
                 .h1 {
                     width: 250px;
-                    font-size: 4.2vmin;
                     color: $color__aux;
                     font-weight: 400;
                     font-family: $notoTC;
                     line-height: 50px;
+                    font-size: 4.2vmin;
 
                     margin-bottom: 10px;
+
+                    @include mobile {
+                        font-size: 5.6vmin;
+                    }
                 }
 
                 .p {
                     width: 290px;
-                    font-size: 2.3vmin;
                     color: $color__font;
                     font-family: $notoTC;
                     line-height: 40px;
+                    font-size: 2.3vmin;
+
+                    @include mobile {
+                        font-size: 3.1vmin;
+                    }
                 }
             }
         }
@@ -69,6 +105,10 @@
 
             margin-top: 113px;
 
+            @include mobile {
+                margin-top: 40px;
+            }
+
             .cube {
                 width: 37.394067796610169492%;
                 min-height: 222px;
@@ -80,20 +120,34 @@
 
                 position: relative;
 
+                @include mobile {
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+
                 .img {
                     height: 222px;
-
                     position: absolute;
                     top: 0;
                     left: 0;
+
+                    @include mobile {
+                        width: 100%;
+                        max-width: 353px;
+                        margin-bottom: 40px;
+                    }
                 }
 
                 .p {
-                    font-size: 2.3vmin;
                     font-family: $notoTC;
                     font-weight: 400;
                     line-height: 40px;
                     position: absolute;
+                    font-size: 2.3vmin;
+
+                    @include mobile {
+                        font-size: 2.9vmin;
+                    }
                 }
 
                 .p1 {

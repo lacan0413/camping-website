@@ -2,14 +2,25 @@
     min-height: 416px;
     background-color: $color__main;
 
-    // .triangle {
-    //     width: 0;
-    //     height: 0;
-    //     border-style: solid;
-    //     border-width: 112px 81px 0 81px;
-    //     border-color: $color__white transparent transparent transparent;
-    //     transform: translateX(-714px);
-    // }
+    position: relative;
+
+    @include mobile {
+        min-height: 586px;
+
+        .fmain4__triangle {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 112px 81px 0 81px;
+            border-color: $color__white transparent transparent transparent;
+
+            position: absolute;
+            top: 0;
+            left: 40%;
+        }
+    }
+
+
 
     &__container {
         display: flex;
@@ -24,6 +35,12 @@
             z-index: 3;
 
             transform: translateY(-17px);
+
+            @include mobile {
+                width: 12.8906%;
+                position: relative;
+                transform: translate(35px, 114px);
+            }
         }
 
         .fmain4__text {
@@ -40,9 +57,16 @@
                 font-family: $notoTC;
                 color: $color__aux;
                 font-weight: 400;
-                font-size: 6.4vmin;
                 line-height: 82px;
                 margin-top: 43px;
+                font-size: 6.4vmin;
+
+                @include mobile {
+                    white-space: nowrap;
+                    font-size: 7.8vmin;
+                    margin-top: 100px;
+                    transform: translateY(102px);
+                }
             }
 
             .p {
@@ -50,10 +74,19 @@
                 height: 80px;
                 font-family: $notoTC;
                 font-weight: 400;
-                font-size: 2.4vmin;
                 line-height: 40px;
+                font-size: 2.4vmin;
 
                 margin-top: 28px;
+
+                @include mobile {
+                    position: relative;
+                    margin-top: 28px;
+                    width: 524px;
+                    font-size: 2.8vmin;
+
+                    transform: translateY(110px);
+                }
             }
         }
 
@@ -62,6 +95,13 @@
             max-height: 122.6px;
 
             transform: translateY(95px);
+
+            @include mobile {
+                width: 13.3507%;
+                max-height: 122.6px;
+
+                transform: translateY(226px);
+            }
         }
     }
 }
