@@ -7,10 +7,15 @@
     align-items: center;
     justify-content: center;
 
-    // padding-top: 0px;
+    @include mobile {
+        min-height: 1791px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .lmain2__left-step01 {
-        width: 29.57102%;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -19,14 +24,30 @@
         //寫死
         margin-right: 6.875%;
 
+        @include mobile {
+            width: 511px;
+            height: 270px;
+
+            margin-right: 0;
+        }
+
         .img {
             width: 36.5897%;
             margin-right: 2.9354207436399217221%;
+
+            @include mobile{
+                width: 206.46px;
+                margin-right: 14.54px;
+            }
         }
 
         .text {
             width: 26.866456361724500526%;
             min-height: 270px;
+
+            @include mobile{
+                width: 290px;
+            }
 
             //寫死
             h1 {
@@ -37,6 +58,10 @@
                 font-weight: 400;
                 line-height: 50px;
                 margin-bottom: 10px;
+
+                @include mobile{
+                    font-size: 40px;
+                }
             }
 
             //寫死
@@ -47,53 +72,91 @@
                 font-family: $notoTC;
                 line-height: 40px;
                 font-weight: 400;
+
+                @include mobile{
+                    font-size: 22px;
+                }
             }
         }
     }
 
-    .lmain2__card {
+    .left__card-group {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
 
-        max-width: 25.052083333333333333%;
-        min-height: 610px;
-        background-color: #fff;
-        border-radius: 50px;
-
-        //寫死
-        margin-right: 40px;
-
-        .img {
-            width: 79.209979209979209979%;
-            margin: 0 50px;
-            margin-top: -138px;
+        @include mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
-        .dotted {
-            width: 79.209979209979209979%;
-            height: 0;
-            border-top: 3px dashed $color__footer;
-            margin-top: 38px;
-        }
+        .lmain2__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-        h1 {
-            font-size: 3.1vmin;
-            text-align: center;
-            color: $color__font;
-            font-family: $openSans;
-            font-weight: 700;
-            margin-top: 38px;
-        }
+            width: 40%;
+            min-height: 610px;
+            background-color: #fff;
+            border-radius: 50px;
 
-        p {
-            font-size: 2.5vmin;
-            color: $color__font;
-            font-family: $notoTC;
-            font-weight: 400;
-            line-height: 30px;
-            margin-top: 10px;
+            //寫死
+            margin-right: 40px;
+
+            @include mobile{
+                max-width: 100%;
+                width: 481px;
+
+                margin-right: 0;
+                margin-top: 40px;
+            }
+
+            .img {
+                width: 79.209979209979209979%;
+                margin: 0 50px;
+                margin-top: -138px;
+
+                @include mobile{
+                    width: 381px;
+                }
+            }
+
+            .dotted {
+                width: 79.209979209979209979%;
+                height: 0;
+                border-top: 3px dashed $color__footer;
+                margin-top: 38px;
+            }
+
+            h1 {
+                font-size: 3.1vmin;
+                text-align: center;
+                color: $color__font;
+                font-family: $openSans;
+                font-weight: 700;
+                margin-top: 38px;
+
+                @include mobile{
+                    font-size: 26px;
+                }
+            }
+
+            p {
+                font-size: 2.5vmin;
+                color: $color__font;
+                font-family: $notoTC;
+                font-weight: 400;
+                line-height: 30px;
+                margin-top: 10px;
+
+                @include mobile{
+                    font-size: 22px;
+                }
+            }
         }
     }
 }

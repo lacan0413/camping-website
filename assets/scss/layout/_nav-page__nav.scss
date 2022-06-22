@@ -1,15 +1,15 @@
 .nav {
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 50;
 
     &__container {
         background-color: transparent;
-        display: flex;
         max-width: 90%;
         height: 20vh;
+        display: flex;
         align-items: center;
         margin: auto;
 
@@ -56,10 +56,23 @@
                     color: $color__font;
                     font-size: 20.8px;
                 }
+
+                @include mobile{
+                    visibility: hidden;
+                }
             }
 
             .bger {
                 visibility: hidden;
+                
+                @include mobile{
+                    visibility: visible;
+                    z-index: 20000;
+
+                    position: relative;
+                    left: -110px;
+                    top: -14px;
+                }                
             }
         }
     }

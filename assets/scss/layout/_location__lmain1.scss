@@ -13,15 +13,19 @@
         justify-content: center;
 
         margin-top: 44px;
-        
+
         .h1 {
             font-size: 6.3vmin;
             color: $color__aux;
             font-family: $openSans;
-            font-weight: 600;
+            font-weight: 400;
             line-height: 82px;
 
             margin-bottom: 28px;
+
+            @include mobile{
+                font-size: 50px;
+            }
         }
 
         .p {
@@ -30,6 +34,12 @@
             color: $color__font;
             font-family: $notoTC;
             line-height: 40px;
+
+            @include mobile{
+                width: 524px;
+                height: 120px;
+                font-size: 22px;
+            }
         }
     }
 }

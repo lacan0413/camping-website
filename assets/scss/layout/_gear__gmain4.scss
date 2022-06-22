@@ -2,11 +2,22 @@
     min-height: 841px;
     background-color: $color__block1;
 
+    @include mobile {
+        min-height: 1712px;
+    }
+
     .gmain4__container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         .gmain4__left {
             display: flex;
@@ -20,7 +31,12 @@
             margin-top: 301px;
 
             // 寫死
+            width: 100%;
             margin-right: 40px;
+
+            @include mobile {
+                margin-top: 111px;
+            }
 
             .left-img-group {
                 display: flex;
@@ -31,6 +47,11 @@
                 min-height: 190px;
                 // 寫死
                 margin-right: 113.2px;
+
+                @include mobile {
+                    width: 100%;
+                    margin-right: -20px;
+                }
 
                 .left {
                     // 寫死
@@ -50,6 +71,10 @@
                         line-height: 54px;
                         transform: translateY(-35px);
                         font-size: 4.3vmin;
+
+                        @include mobile {
+                            font-size: 5.3vmin;
+                        }
                     }
                 }
             }
@@ -61,6 +86,11 @@
                 font-weight: 400;
                 line-height: 40px;
                 font-size: 2.4vmin;
+
+                @include mobile {
+                    width: 100%;
+                    font-size: 2.9vmin;
+                }
             }
         }
 
@@ -75,6 +105,16 @@
 
             margin-top: 111px;
 
+            @include mobile {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                width: 100%;
+                margin-top: -41px;
+            }
+
             .card {
                 width: 48.00002336201%;
                 min-height: 610px;
@@ -85,6 +125,11 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+
+                @include mobile {
+                    width: 481px;
+                    margin-bottom: 40px;
+                }
 
                 .title {
                     max-width: 381px;
@@ -122,9 +167,13 @@
                     &::after {
                         margin-left: 67.454068241469816273%;
                     }
+
+                    @include mobile {
+                        font-size: 3.4vmin;
+                    }
                 }
 
-                #card-title2{
+                #card-title2 {
                     margin-top: -18px;
                 }
 
@@ -139,10 +188,13 @@
                     font-family: $notoTC;
                     font-weight: 400;
                     line-height: 30px;
-                    font-size: 2.4vmin;
+                    font-size: 2.2vmin;
+
+                    @include mobile {
+                        font-size: 2.9vmin;
+                    }
                 }
             }
         }
     }
 }
-

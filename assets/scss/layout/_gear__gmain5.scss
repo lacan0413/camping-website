@@ -2,6 +2,10 @@
     min-height: 1062px;
     background-color: $color__white;
 
+    @include mobile {
+        min-height: 2438px;
+    }
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,12 +19,21 @@
 
         margin-top: 19px;
 
+        @include mobile {
+            margin-top: 0;
+        }
+
         .h1 {
             color: $color__aux;
             font-family: $notoTC;
             font-weight: 400;
             line-height: 82px;
             font-size: 6.5vmin;
+
+            @include mobile {
+                width: 524px;
+                font-size: 7.9vmin;
+            }
         }
 
         .p {
@@ -33,9 +46,13 @@
             font-size: 2.4vmin;
 
             margin-top: 28px;
+
+            @include mobile {
+                width: 524px;
+                font-size: 2.9vmin;
+            }
         }
     }
-
 
     .gmain5__down {
         display: flex;
@@ -49,6 +66,15 @@
 
         margin-top: 60px;
 
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 40px;
+        }
+
         .card {
             display: flex;
             flex-direction: column;
@@ -61,8 +87,20 @@
             box-shadow: 4px 4px 4px rgba(85, 154, 105, 0.25);
             border-radius: 50px;
 
-            &:nth-child(1), &:nth-child(2){
+            &:nth-child(1),
+            &:nth-child(2) {
                 margin-right: 10px;
+            }
+
+            @include mobile {
+                width: 481px;
+
+                margin-top: 40px;
+
+                &:nth-child(1),
+                &:nth-child(2) {
+                    margin-right: 0;
+                }
             }
 
             .img {
@@ -86,6 +124,10 @@
                 font-size: 2.8vmin;
 
                 margin-top: 38px;
+
+                @include mobile {
+                    font-size: 3.4vmin;
+                }
             }
 
             .p {
@@ -96,6 +138,10 @@
                 font-size: 2.4vmin;
 
                 margin-top: 10px;
+
+                @include mobile {
+                    font-size: 2.9vmin;
+                }
             }
         }
     }

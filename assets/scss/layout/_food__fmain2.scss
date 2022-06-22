@@ -1,7 +1,7 @@
 .fmain2 {
     min-height: 826px;
     background-color: $color__block2;
-
+    
     &__container {
         display: flex;
         flex-direction: row;
@@ -37,7 +37,7 @@
                     color: $color__aux;
                     font-family: $notoTC;
                     font-weight: 400;
-                    
+
                     margin-bottom: 10px;
                 }
 

@@ -2,6 +2,10 @@
     min-height: 1081px;
     background-color: $color__main;
 
+    @include mobile{
+        min-height: 2361px;
+    }
+
     .gmain2__container {
         display: flex;
         flex-direction: column;
@@ -19,6 +23,10 @@
 
             margin-top: 111px;
 
+            @include mobile{
+                width: 643px;
+            }
+
             .left-img-group {
                 display: flex;
                 flex-direction: row;
@@ -30,6 +38,11 @@
                 //寫死
                 margin-top: 43px;
                 margin-right: 131px;
+
+                @include mobile{
+                    width: 642.86px;
+                    margin-right: 0px;
+                }
 
                 .left {
                     // 寫死
@@ -49,6 +62,10 @@
                         line-height: 54px;
                         transform: translateY(-35px);
                         font-size: 4.2vmin;
+
+                        @include mobile{
+                            font-size: 40px;
+                        }
                     }
                 }
             }
@@ -59,7 +76,11 @@
                 font-family: $notoTC;
                 font-weight: 400;
                 line-height: 40px;
-                font-size: 2.4vmin;                
+                font-size: 2.4vmin;
+                
+                @include mobile{
+                    font-size: 22px;
+                }
             }
         }
 
@@ -72,6 +93,15 @@
             min-height: 610px;
             margin-top: 60px;
 
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                width: 100%;
+            }
+
             .card {
                 display: flex;
                 flex-direction: column;
@@ -80,6 +110,11 @@
                 width: 31.492660442337658936%;
                 min-height: 610px;
                 background-color: #fff;
+
+                @include mobile{
+                    width: 481px;
+                    margin-bottom: 40px;
+                }
 
                 .title {
                     width: 79.209979209979209979%;
@@ -91,6 +126,12 @@
                     margin-top: -60px;
                     margin-bottom: 38px;
                     font-size: 2.8vmin;
+
+                    @include mobile{
+                        width: 381px;
+                        font-size: 26px;
+                        margin-top: 33px;
+                    }
                 }
 
                 .line {
@@ -112,6 +153,11 @@
                     font-weight: 400;
                     line-height: 30px;
                     font-size: 2.8vmin;
+
+                    @include mobile{
+                        width: 381px;
+                        font-size: 22px;
+                    }
                 }
             }
         }

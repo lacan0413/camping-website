@@ -2,11 +2,38 @@
     min-height: 939px;
     background-color: $color__white;
 
+    @include mobile {
+        min-height: 2129px;
+
+        position: relative;
+
+        .lmain3__triangle {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 108px 100.5px 0 100.5px;
+            border-color: $color__block2 transparent transparent transparent;
+
+            position: absolute;
+            top: 0;
+            left: 286px;
+        }
+    }
+
     .lmain3__container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            transform: translateY(-100px);
+        }
 
         .lmain3__left-step02 {
             display: flex;
@@ -22,15 +49,32 @@
 
             position: relative;
 
+            @include mobile {
+                width: 511px;
+                min-height: 270px;
+                margin-right: 0;
+            }
+
             .img {
                 width: 41.317365269461077844%;
                 margin-right: 4.9900199600798403194%;
+
+                @include mobile {
+                    width: 206.46px;
+                    height: 151px;
+                    margin-right: 14.54px;
+                }
             }
 
             //寫死
             .text {
                 width: 550px;
                 height: 320px;
+
+                @include mobile {
+                    width: 290px;
+                    height: 270px;
+                }
 
                 h1 {
                     width: 250px;
@@ -44,6 +88,12 @@
 
                     margin-top: 25px;
                     margin-bottom: 10px;
+
+                    @include mobile {
+                        font-size: 40px;
+                        // wait
+                        // margin-top: 0;
+                    }
                 }
 
                 p {
@@ -54,12 +104,20 @@
                     color: $color__font;
                     font-family: $notoTC;
                     line-height: 40px;
+
+                    @include mobile {
+                        font-size: 22px;
+                    }
                 }
             }
         }
 
         .lmain3__right {
             width: 60%;
+
+            @include mobile {
+                width: 454.5px;
+            }
 
             &__container {
                 display: flex;
@@ -69,7 +127,16 @@
 
                 margin-top: 166px;
 
-                //寫死待改
+                @include mobile {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    margin-top: 40px;
+                }
+
+                //寫死
                 .cube {
                     width: 353px;
                     height: 525px;
@@ -84,11 +151,21 @@
 
                     position: relative;
 
+                    @include mobile {
+                        height: 513.76px;
+
+                        &:nth-child(3) {
+                            width: 454.5px;
+                            height: 404px;
+                        }
+                    }
+
                     .sticker {
                         width: 131px;
                         height: 66px;
                         background-color: #FFD449;
                         box-shadow: -4px 4px 12px rgb(117, 117, 117);
+                        opacity: 0.7;
 
                         font-size: 2.6vmin;
                         color: $color__font;
@@ -105,12 +182,27 @@
                         transform: translateX(-50%);
                     }
 
-                    &:nth-child(1){
+                    &:nth-child(1) {
                         margin-top: 82px;
+
+                        @include mobile {
+                            margin-top: 99.76px;
+                        }
                     }
 
-                    &:nth-child(3){
+                    &:nth-child(2) {
+
+                        @include mobile {
+                            margin-top: 85.98px;
+                        }
+                    }
+
+                    &:nth-child(3) {
                         margin-top: 220px;
+
+                        @include mobile {
+                            margin-top: 81px;
+                        }
                     }
 
                     .square {
@@ -121,20 +213,38 @@
 
                     .square2 {
                         top: 260px;
+
+                        @include mobile {
+                            top: 200px;
+                        }
                     }
 
                     .square4 {
                         top: 260px;
+
+                        @include mobile {
+                            top: 200px;
+                        }
                     }
 
                     .square5 {
                         top: 52.8px;
                         left: 22px;
+
+                        @include mobile {
+                            top: 57px;
+                            left: 86.5px;
+                        }
                     }
 
                     .square6 {
                         top: 260px;
                         left: 22px;
+
+                        @include mobile{
+                            top: 200px;
+                            left: 86.5px;
+                        }
                     }
 
                     .text {
@@ -149,24 +259,51 @@
                         position: absolute;
                         top: 55px;
                         left: 66px;
+
+                        @include mobile{
+                            width: 266px;
+                            height: 122px;
+                            font-size: 22px;
+
+                            top: 54px;
+                            left: 80px;
+                        }
                     }
 
                     .text2 {
                         top: 259px;
+
+                        @include mobile{
+                            top: 196px;
+                        }
                     }
 
                     .text4 {
                         top: 259px;
+
+                        @include mobile{
+                            top: 196px;
+                        }
                     }
 
                     .text5 {
                         top: 50px;
                         left: 69px;
+
+                        @include mobile{
+                            left: 144.5px;
+                        }
                     }
 
                     .text6 {
                         top: 259px;
                         left: 69px;
+
+                        
+                        @include mobile{
+                            left: 144.5px;
+                            top: 196px;
+                        }
                     }
                 }
             }
