@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>露營樂 | 找食材</title>
+    <title>露營趣 | 找食材</title>
     <meta name="description" content="露營新手的最佳指引" />
     <link rel="icon" href="./assets/img/favicon.svg">
     <link rel="stylesheet" href="./assets/scss/style.css">
@@ -15,8 +15,25 @@
 
 <body>
     <!-- loading effect =============================================== -->
-    <!-- <div id="transition" class="transition__load-background transition__active"></div>
-    <script src="./assets/js/loading.js"></script> -->
+    <div id="transition" class="transition__load-background transition__active"></div>
+
+
+
+
+
+    <!-- faside=============================================== -->
+    <aside id="aside" class="aside__menu-close">
+        <img class="cross" id="cross" src="./assets/img/aside/aside__close.svg" alt="叉符號">
+
+        <ul>
+            <li class="asidelink"><i class="fas fa-map-marker-alt"></i><a href="./location.html">&nbsp;&nbsp;找地點</a>
+            </li>
+            <li class="asidelink"><i class="fas fa-tools"></i><a href="./gear.html">&nbsp;&nbsp;找裝備</a></li>
+            <li class="asidelink"><i class="fas fa-utensils"></i><a href="./food.html">&nbsp;&nbsp;找食材</a>
+            </li>
+            <li class="asidelink"><i class="fas fa-user"></i><a href="./log-in.html">&nbsp;&nbsp;會員登入</a></li>
+        </ul>
+    </aside>
 
 
 
@@ -36,7 +53,7 @@
                 <li class="navlink"><i class="fas fa-utensils"></i><a href="./food.html">&nbsp;&nbsp;找食材</a>
                 </li>
                 <li class="navlink"><i class="fas fa-user"></i><a href="./log-in.html">&nbsp;&nbsp;會員登入</a></li>
-                <li class="bger"><img src="./assets/img/icon/navbar_hamburder.svg" alt="漢堡"></li>
+                <li class="bger" id="bger"><img src="./assets/img/icon/navbar_hamburder.svg" alt="漢堡"></li>
             </section>
         </div>
     </nav>
@@ -174,14 +191,19 @@
 
             <ul class="footer__link-list">
                 <li><a href="./location.html">找地點</a></li>
-                <li><a href="./food.html">找裝備</a></li>
-                <li><a href="./gear.html">找食材</a></li>
+                <li><a href="./gear.html">找裝備</a></li>
+                <li><a href="./food.html">找食材</a></li>
                 <li><a href="./log-in.html">會員登入</a></li>
             </ul>
 
             <p class="footer__copyright">Copyright © 2022 露營趣 版權所有</p>
         </div>
     </footer>
+
+
+
+    <script src="./assets/js/loading.js"></script>
+    <script src="./assets/js/aside.js"></script>
 </body>
 
 </html>

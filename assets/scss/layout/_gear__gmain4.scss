@@ -31,11 +31,17 @@
             margin-top: 301px;
 
             // 寫死
-            width: 100%;
             margin-right: 40px;
 
             @include mobile {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
                 margin-top: 111px;
+
+                transform: translateX(10px);
             }
 
             .left-img-group {
@@ -43,6 +49,7 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+
                 width: 12.5%;
                 min-height: 190px;
                 // 寫死
@@ -88,7 +95,7 @@
                 font-size: 2.4vmin;
 
                 @include mobile {
-                    width: 100%;
+                    width: 576px;
                     font-size: 2.9vmin;
                 }
             }
@@ -111,7 +118,6 @@
                 align-items: center;
                 justify-content: center;
 
-                width: 100%;
                 margin-top: -41px;
             }
 
@@ -127,6 +133,7 @@
                 justify-content: center;
 
                 @include mobile {
+                    transform: translateY(40px);
                     width: 481px;
                     margin-bottom: 40px;
                 }

@@ -64,10 +64,11 @@
 
             .bger {
                 visibility: hidden;
+
+                cursor: pointer;
                 
                 @include mobile{
                     visibility: visible;
-                    z-index: 20000;
 
                     position: relative;
                     left: -110px;

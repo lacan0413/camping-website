@@ -12,19 +12,24 @@
         align-items: center;
         justify-content: center;
 
-        .gmain2__top {
+        .gmain2__top {            
+            width: 46.5625%;
+            min-height: 190px;
+
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            
-            width: 46.5625%;
-            min-height: 190px;
 
             margin-top: 111px;
 
             @include mobile{
-                width: 643px;
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
             }
 
             .left-img-group {
@@ -79,6 +84,7 @@
                 font-size: 2.4vmin;
                 
                 @include mobile{
+                    width: 100%;
                     font-size: 22px;
                 }
             }
